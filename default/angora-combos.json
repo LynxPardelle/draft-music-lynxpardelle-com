@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "music.lynxpardelle.com",
+  "combos": {
+    "sectionBase": [
+      "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-52px"
+    ],
+    "sectionContent": [
+      "ank-width-100per ank-maxWidth-1260px ank-display-flex ank-flexDirection-column ank-gap-20px"
+    ],
+    "sectionTitle": [
+      "ank-m-0 ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-800 ank-lineHeight-1_02 ank-letterSpacing-0 ank-maxWidth-17ch ank-color-titleColor"
+    ],
+    "sectionSubtitle": [
+      "ank-m-0 ank-fontSize-1rem ank-fontSize-md-1_06rem ank-opacity-0_82 ank-maxWidth-56rem ank-lineHeight-1_62 ank-color-textColor"
+    ],
+    "textGradient": [
+      "ank-bgi-linearMINgradientSDVAL1DEF122degDEFCOMVAL2DEFtitleColorDEFCOMVAL3DEFsecondaryLinkColorDEFED ank-bgcl-text ank-color-transparent"
+    ],
+    "gridCards": [
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gridTemplateColumns-lg-repeatSD3COM1frED ank-gap-20px"
+    ],
+    "musicCard": [
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-22px ank-padding-22px ank-bg-secondaryBgColor ank-boxShadow-0__14px__34px__bgColor__OPA__0_22"
+    ],
+    "musicChip": [
+      "ank-display-inlineBlock ank-paddingInline-12px ank-paddingBlock-7px ank-borderRadius-99rem ank-fontSize-0_74rem ank-fontWeight-800 ank-bg-bgColor ank-border-1px__solid__secondaryAccentColor ank-color-titleColor ank-letterSpacing-0_06rem"
+    ],
+    "musicGhostButton": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-9px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-fontWeight-800 ank-color-titleColor ank-textDecoration-none ank-bgHover-secondaryBgColor ank-colorHover-secondaryLinkColor ank-letterSpacing-0_03rem"
+    ],
+    "ctaLinkPrimary": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-fontWeight-800 ank-borderRadius-99rem ank-paddingInline-18px ank-paddingBlock-13px ank-bg-secondaryLinkColor ank-color-bgColor ank-boxShadow-0__10px__24px__secondaryLinkColor__OPA__0_24 ank-letterSpacing-0_03rem"
+    ],
+    "ctaLinkSecondary": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-fontWeight-800 ank-borderRadius-99rem ank-paddingInline-18px ank-paddingBlock-13px ank-border-1px__solid__secondaryAccentColor ank-color-titleColor ank-bg-transparent ank-letterSpacing-0_03rem ank-bgHover-secondaryBgColor"
+    ],
+    "musicNavLink": [
+      "ank-textDecoration-none ank-fontSize-0_78rem ank-fontWeight-800 ank-paddingInline-11px ank-paddingBlock-9px ank-borderRadius-99rem ank-color-titleColor ank-bgHover-secondaryBgColor ank-colorHover-secondaryLinkColor ank-letterSpacing-0_06rem"
+    ],
+    "musicFeatureCard": [
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-padding-20px ank-bg-secondaryBgColor ank-boxShadow-0__10px__28px__bgColor__OPA__0_16 ank-height-100per"
+    ],
+    "musicOfferCard": [
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-padding-20px ank-bg-bgColor ank-boxShadow-0__10px__28px__bgColor__OPA__0_14 ank-height-100per"
+    ],
+    "musicPresenceCard": [
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-padding-20px ank-bg-secondaryBgColor ank-boxShadow-0__10px__28px__bgColor__OPA__0_16 ank-height-100per"
+    ],
+    "musicProcessStrip": [
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-padding-18px ank-bg-secondaryBgColor ank-fontSize-0_96rem ank-lineHeight-1_65 ank-fontWeight-600"
+    ],
+    "musicHeroPanel": [
+      "ank-position-relative ank-width-100per ank-maxWidth-1320px ank-overflow-hidden ank-border-1px__solid__secondaryAccentColor ank-borderRadius-12px ank-padding-18px ank-padding-md-34px ank-bg-secondaryBgColor ank-boxShadow-0__18px__56px__bgColor__OPA__0_26"
+    ],
+    "musicEyebrow": [
+      "ank-display-inlineBlock ank-paddingInline-12px ank-paddingBlock-6px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-fontSize-0_68rem ank-fontSize-md-0_72rem ank-fontWeight-800 ank-letterSpacing-0_1rem ank-letterSpacing-md-0_14rem ank-textTransform-uppercase"
+    ],
+    "footerSocialLink": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-width-46px ank-height-46px ank-borderRadius-999px ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none ank-fontSize-1_1rem ank-fontWeight-800 ank-boxShadow-0__10px__24px__bgColor__OPA__0_12 ank-bgHover-bgColor ank-colorHover-secondaryLinkColor"
+    ],
+    "accContainer": [
+      "ank-display-flex ank-flexDirection-column ank-gap-8px"
+    ],
+    "accItemContainer": [
+      "ank-overflow-hidden ank-borderRadius-20px ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-boxShadow-0__10px__28px__bgColor__OPA__0_14"
+    ],
+    "accItemExpandedContainer": [
+      "ank-bg-bgColor ank-boxShadow-0__16px__32px__bgColor__OPA__0_18"
+    ],
+    "accItemNotExpandedContainer": [
+      "ank-bg-transparent"
+    ],
+    "accItemButton": [
+      "ank-width-100per ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-16px ank-paddingInline-20px ank-paddingBlock-18px ank-border-0 ank-bg-transparent ank-color-titleColor ank-textAlign-left ank-fontSize-1rem ank-fontWeight-800 ank-lineHeight-1_45 ank-cursor-pointer ank-transition-all"
+    ],
+    "accItemButtonIsExpanded": [
+      "ank-bg-bgColor ank-color-secondaryLinkColor"
+    ],
+    "accItemButtonIsNotExpanded": [
+      "ank-bg-transparent ank-color-titleColor"
+    ],
+    "accItemButtonIcon": [
+      "ank-fontSize-1_45rem ank-color-secondaryLinkColor ank-flexShrink-0 ank-transition-all"
+    ],
+    "accItemPanel": [
+      "ank-borderTop-1px__solid__secondaryAccentColor ank-paddingInline-20px ank-paddingTop-14px ank-paddingBottom-18px ank-opacity-0_9 ank-lineHeight-1_75"
+    ],
+    "accItemButtonIconIsExpanded": [
+      "ank-transform-rotateSD180degED"
+    ],
+    "accItemButtonIconIsNotExpanded": [
+      ""
+    ],
+    "musicCatalogPanel": [
+      "ank-borderTop-1px__solid__secondaryAccentColor ank-borderBottom-1px__solid__secondaryAccentColor ank-paddingBlock-28px"
+    ],
+    "musicTrackLink": [
+      "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-minHeight-76px ank-paddingInline-18px ank-paddingBlock-15px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-textDecoration-none ank-color-titleColor ank-fontWeight-800 ank-lineHeight-1_25 ank-bgHover-secondaryBgColor ank-colorHover-secondaryLinkColor ank-transition-all"
+    ]
+  }
+}

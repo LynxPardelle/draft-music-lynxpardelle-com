@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "music.lynxpardelle.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "landingPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [
+    "modalAnalyticsConsentRoot",
+    "modalTermsRoot",
+    "modalDataUseRoot"
+  ],
+  "metadata": {
+    "status": "draft_generated",
+    "source": "assistant-generated from approved questionnaire",
+    "versionTag": "v1.0.0",
+    "owner": "Lynx Pardelle"
+  },
+  "seo": {
+    "title": "Lynx Pardelle | Experimental Electronic Rock",
+    "description": "Enter the Lynx Pardelle signal: tense, cinematic experimental electronic rock with a sharp visual identity. Follow on Spotify and Tidal for new releases and updates.",
+    "openGraph": {
+      "title": "Lynx Pardelle | Experimental Electronic Rock",
+      "description": "Enter the Lynx Pardelle signal: tense, cinematic experimental electronic rock with a sharp visual identity. Follow on Spotify and Tidal for new releases and updates.",
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+      "url": "https://music.lynxpardelle.com",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Lynx Pardelle | Experimental Electronic Rock",
+      "description": "Enter the Lynx Pardelle signal: tense, cinematic experimental electronic rock with a sharp visual identity. Follow on Spotify and Tidal for new releases and updates.",
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://music.lynxpardelle.com"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "MusicGroup",
+        "name": "Lynx Pardelle",
+        "url": "https://music.lynxpardelle.com",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+        "description": "Genre-defying artist blending electronic music with rock and dark immersive atmospheres.",
+        "sameAs": [
+          "https://open.spotify.com/intl-es/artist/0BJZMxkwimGbieNAvoAH0W",
+          "https://tidal.com/artist/10212180",
+          "https://www.facebook.com/LynxPardelle",
+          "https://www.instagram.com/lynxpardelle/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "MusicAlbum",
+        "name": "Lynx Pardelle Selected Works",
+        "byArtist": {
+          "@type": "MusicGroup",
+          "name": "Lynx Pardelle"
+        },
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+        "url": "https://music.lynxpardelle.com"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "tracks",
+      "benefits",
+      "offers",
+      "process",
+      "social-proof",
+      "faq",
+      "final-cta",
+      "contact-section"
+    ],
+    "scrollMilestones": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

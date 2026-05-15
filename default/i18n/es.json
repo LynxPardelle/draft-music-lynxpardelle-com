@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "music.lynxpardelle.com",
+  "lang": "es",
+  "dictionary": {
+    "brand": {
+      "name": "LYNX PARDELLE"
+    },
+    "ui": {
+      "skipToMain": "Saltar al contenido principal",
+      "toggleTheme": "Tema",
+      "toggleLanguage": "Idioma",
+      "selectLanguage": "Seleccionar idioma",
+      "controls": {
+        "languageToggle": "Cambiar idioma"
+      },
+      "accessibility": {
+        "analyticsConsentDialog": "Diálogo de consentimiento de analítica",
+        "dialog": "Diálogo",
+        "dialogOpened": "Diálogo abierto",
+        "dialogClosed": "Diálogo cerrado"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Descargar payloads del draft",
+        "writeDraftsToDisk": "Escribir drafts en disco",
+        "configIssues": "Problemas de configuración",
+        "analyticsLatest": "Eventos analíticos recientes",
+        "unknownComponentPrefix": "Componente desconocido"
+      },
+      "brandCaption": "Superficie oficial de escucha",
+      "headerPrimaryCtaLabel": "Escuchar ahora",
+      "heroMediaCaption": "Señal visual oficial de Lynx Pardelle"
+    },
+    "nav": {
+      "home": "Inicio",
+      "benefits": "Sonido",
+      "process": "Ruta",
+      "offers": "Acceso",
+      "faq": "FAQ",
+      "contact": "Info",
+      "tracks": "Canciones"
+    },
+    "hero": {
+      "tagline": "Señal oficial / rock electrónico experimental.",
+      "title": "Lynx Pardelle",
+      "subtitle": "Presión, textura y secuela para oyentes de madrugada.",
+      "description": "Un catálogo tenso e inmersivo donde bordes distorsionados, contención melódica e identidad visual funcionan como un solo sistema.",
+      "supportNote": "Empieza por una canción, sube el volumen y deja que el resto del catálogo encuentre su lugar.",
+      "mediaKicker": "VISUAL OFICIAL / SEÑAL 01",
+      "primary": {
+        "label": "Abrir Spotify"
+      },
+      "secondary": {
+        "label": "Abrir Tidal"
+      },
+      "badgesLabel": "También disponible en",
+      "badges": [
+        {
+          "text": "Spotify"
+        },
+        {
+          "text": "Tidal"
+        },
+        {
+          "text": "Apple Music"
+        },
+        {
+          "text": "YouTube Music"
+        }
+      ]
+    },
+    "featuresSection": {
+      "title": "Por qué este sonido sí se queda",
+      "subtitle": "Cuatro puntos de presión definen el proyecto: tensión, detalle, contraste y un lenguaje visual que no separa imagen de sonido."
+    },
+    "features": [
+      {
+        "icon": "speed",
+        "title": "Producción táctil",
+        "description": "Las capas se sienten cortadas, raspadas y colocadas con intención en lugar de lavarse unas sobre otras.",
+        "benefits": [
+          "Bordes duros con espacio para respirar",
+          "Presión en graves sin lodo",
+          "Detalles que pagan cada reescucha"
+        ]
+      },
+      {
+        "icon": "favorite",
+        "title": "Atmósfera de noche",
+        "description": "El catálogo se mantiene tenso e inmersivo sin caer en una oscuridad amorfa.",
+        "benefits": [
+          "Peso cinematográfico en vez de vacío",
+          "Melodía usada con precisión",
+          "Un clima que se sostiene de inicio a fin"
+        ]
+      },
+      {
+        "icon": "auto_awesome",
+        "title": "Contraste controlado",
+        "description": "La fuerza del rock y la arquitectura electrónica se empujan entre sí sin convertirse en compromiso tibio.",
+        "benefits": [
+          "Precisión mecánica con tensión humana",
+          "Choque limpio entre impacto y espacio",
+          "Una secuela emocional más marcada"
+        ]
+      },
+      {
+        "icon": "preview",
+        "title": "Pensamiento visual",
+        "description": "Arte, tono e interfaz se sienten parte del mismo mundo de lanzamiento.",
+        "benefits": [
+          "Memoria visual consistente",
+          "Identidad más fuerte entre plataformas",
+          "Imagen y sonido reforzándose mutuamente"
+        ]
+      }
+    ],
+    "processSection": {
+      "title": "Cómo entrar en el mundo",
+      "sidebarTitle": "No hace falta escucharlo todo de golpe. Entra por una ruta clara."
+    },
+    "processCards": [
+      "01 Empieza en Spotify para seguir lanzamientos, guardar el proyecto y volver rápido a cada nuevo estreno.",
+      "02 Pasa a Tidal cuando quieras más espacio, más profundidad y una lectura más limpia de las decisiones de producción.",
+      "03 Usa el resto de plataformas cuando quieras integrar el proyecto a tu flujo diario de escucha.",
+      "04 Deja cerca los canales del footer para visuales, actualizaciones y líneas directas de regreso al proyecto."
+    ],
+    "servicesSection": {
+      "title": "Tres formas de entrar",
+      "subtitle": "Distintos puntos de acceso para distintos hábitos de escucha."
+    },
+    "runtimeApiSection": {
+      "title": "Canciones en movimiento",
+      "subtitle": "La lista se actualiza desde el feed configurado y mantiene respaldo local si la fuente tarda en responder.",
+      "statusLabel": "Actualizado desde iTunes Search por API proxy"
+    },
+    "tidalAlbumsSection": {
+      "title": "Álbumes en TIDAL",
+      "subtitle": "Catálogo de Lynx Pardelle leído desde TIDAL por el proxy seguro del sitio.",
+      "statusLabel": "Actualizado desde TIDAL con countryCode MX",
+      "openLabel": "Abrir en TIDAL",
+      "attribution": "Datos y artwork proporcionados por TIDAL. TIDAL es una marca de TIDAL Music AS."
+    },
+    "services": [
+      {
+        "icon": "rocket_launch",
+        "title": "Primer impacto",
+        "description": "La ruta directa para quien quiere captar la atmósfera sin rodeos.",
+        "benefits": [
+          "Empieza por el lanzamiento más reciente",
+          "Guarda al artista en tu plataforma principal",
+          "Vuelve de noche, no de paso"
+        ]
+      },
+      {
+        "icon": "saved_search",
+        "title": "Inmersión profunda",
+        "description": "Para oyentes que sí quieren textura, espacio y lo que ocurre debajo de la capa obvia.",
+        "benefits": [
+          "Usa audífonos o bocinas con atención real",
+          "Deja correr las transiciones completas",
+          "Dale tiempo a los detalles para aparecer"
+        ]
+      },
+      {
+        "icon": "autorenew",
+        "title": "Contacto repetido",
+        "description": "El proyecto se abre más con reescuchas que con sobreexplicación inmediata.",
+        "benefits": [
+          "Vuelve por varias entregas",
+          "Sigue la continuidad visual y sonora",
+          "Traza tu propia ruta dentro del catálogo"
+        ]
+      }
+    ],
+    "presenceSection": {
+      "title": "Dónde funciona mejor",
+      "subtitle": "No son testimonios. Son contextos de escucha."
+    },
+    "listeningModes": [
+      {
+        "icon": "schedule",
+        "title": "Audífonos de madrugada",
+        "description": "La forma más limpia de captar la tensión entre detalle e impacto.",
+        "benefits": [
+          "Las microtexturas suben antes",
+          "El movimiento estéreo se siente intencional",
+          "La presión emocional se queda más cerca"
+        ]
+      },
+      {
+        "icon": "star",
+        "title": "Enfoque cinematográfico",
+        "description": "Trabajo, escritura o visuales que necesitan atmósfera sin blandura.",
+        "benefits": [
+          "Sostiene impulso sin ser wallpaper",
+          "Aporta escala sin aplanar la atención",
+          "Deja un clima visual más fuerte"
+        ]
+      },
+      {
+        "icon": "trending_up",
+        "title": "Tránsito y movimiento",
+        "description": "Funciona mejor cuando el desplazamiento y la repetición afilan el pulso en lugar de diluirlo.",
+        "benefits": [
+          "Sirve tanto caminando como manejando de noche",
+          "Corta el ruido del entorno",
+          "Deja más secuela cuando termina la pista"
+        ]
+      }
+    ],
+    "faqSection": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Lo necesario para empezar a escuchar con contexto."
+    },
+    "faq": [
+      {
+        "id": "faq-genre",
+        "title": "¿Qué tipo de música es?",
+        "content": "Rock electrónico experimental construido desde tensión, atmósfera y detalle de producción con filo."
+      },
+      {
+        "id": "faq-entry",
+        "title": "¿Dónde conviene empezar?",
+        "content": "Empieza por Spotify si quieres la entrada más rápida al catálogo y pasa a Tidal cuando quieras más profundidad y fidelidad."
+      },
+      {
+        "id": "faq-platforms",
+        "title": "¿Solo está en Spotify y Tidal?",
+        "content": "No. Esas son las entradas principales, pero el proyecto también está presente en otras plataformas grandes."
+      },
+      {
+        "id": "faq-vision",
+        "title": "¿Por qué importa tanto lo visual?",
+        "content": "Porque el proyecto está construido como un solo mundo de lanzamiento donde textura, imagen y sonido se refuerzan entre sí."
+      },
+      {
+        "id": "faq-updates",
+        "title": "¿Cómo me mantengo cerca de los nuevos lanzamientos?",
+        "content": "Sigue Spotify o Tidal primero y usa los canales del footer para visuales, actualizaciones y puntos directos de contacto."
+      }
+    ],
+    "finalCtaSection": {
+      "title": "Entra a la señal de Lynx Pardelle",
+      "subtitle": "Síguelo ahora y mantén al alcance el próximo lanzamiento, la próxima ruptura visual y la siguiente actualización.",
+      "primaryLabel": "Seguir en Spotify",
+      "secondaryLabel": "Seguir en Tidal"
+    },
+    "footer": {
+      "copyright": "Copyright Lynx Pardelle. Todos los derechos reservados.",
+      "social": {
+        "spotify": {
+          "label": "Spotify",
+          "ariaLabel": "Abrir Lynx Pardelle en Spotify"
+        },
+        "facebook": {
+          "label": "Facebook",
+          "ariaLabel": "Abrir Lynx Pardelle en Facebook"
+        },
+        "instagram": {
+          "label": "Instagram",
+          "ariaLabel": "Abrir Lynx Pardelle en Instagram"
+        },
+        "whatsapp": {
+          "label": "WhatsApp",
+          "ariaLabel": "Contactar a Lynx Pardelle por WhatsApp"
+        }
+      },
+      "actions": {
+        "close": "Cerrar"
+      },
+      "legal": {
+        "title": "Información legal",
+        "terms": {
+          "icon": "§",
+          "link": "Términos de uso",
+          "title": "Términos de uso",
+          "intro": "La música, los visuales y los activos de marca publicados bajo Lynx Pardelle siguen siendo propiedad intelectual protegida.",
+          "sections": [
+            {
+              "title": "Propiedad",
+              "text": "La música, el arte y los activos del proyecto permanecen protegidos por derechos de autor y derechos relacionados."
+            },
+            {
+              "title": "Uso",
+              "text": "No está permitida la reproducción, reventa o redistribución no autorizada de los activos del proyecto."
+            }
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Aviso de privacidad",
+          "title": "Aviso de privacidad",
+          "intro": "Los datos analíticos y de contacto se usan solo para mejorar la experiencia y responder por los canales listados.",
+          "points": [
+            "Los datos analíticos se conservan solo mientras sigan siendo útiles a nivel operativo.",
+            "La información personal no se vende a terceros.",
+            "Puedes pedir aclaración sobre el tratamiento de datos en cualquier momento."
+          ],
+          "consentNote": "Puedes actualizar tus preferencias de consentimiento cuando quieras."
+        }
+      }
+    },
+    "consent": {
+      "title": "Consentimiento de analítica",
+      "feedback": {
+        "confirmRemove": "¿Seguro que quieres retirar el consentimiento?"
+      },
+      "actions": {
+        "remove": "Retirar consentimiento",
+        "confirm": "Sí",
+        "cancel": "No"
+      }
+    }
+  }
+}

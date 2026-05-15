@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "music.lynxpardelle.com",
+  "lang": "en",
+  "dictionary": {
+    "brand": {
+      "name": "LYNX PARDELLE"
+    },
+    "ui": {
+      "skipToMain": "Skip to main content",
+      "toggleTheme": "Theme",
+      "toggleLanguage": "Language",
+      "selectLanguage": "Select language",
+      "controls": {
+        "languageToggle": "Change language"
+      },
+      "accessibility": {
+        "analyticsConsentDialog": "Analytics consent dialog",
+        "dialog": "Dialog",
+        "dialogOpened": "Dialog opened",
+        "dialogClosed": "Dialog closed"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Download draft payloads",
+        "writeDraftsToDisk": "Write drafts to disk",
+        "configIssues": "Config issues",
+        "analyticsLatest": "Latest analytics events",
+        "unknownComponentPrefix": "Unknown component"
+      },
+      "brandCaption": "Official listening surface",
+      "headerPrimaryCtaLabel": "Listen now",
+      "heroMediaCaption": "Official Lynx Pardelle visual signal"
+    },
+    "nav": {
+      "home": "Home",
+      "benefits": "Sound",
+      "process": "Path",
+      "offers": "Access",
+      "faq": "FAQ",
+      "contact": "Info",
+      "tracks": "Songs"
+    },
+    "hero": {
+      "tagline": "Official signal / experimental electronic rock.",
+      "title": "Lynx Pardelle",
+      "subtitle": "Pressure, texture, and aftermath for late-night listeners.",
+      "description": "A tense, immersive catalog where distorted edges, melodic restraint, and visual identity move as one system.",
+      "supportNote": "Start with one track, turn the volume up, and let the rest of the catalog settle in.",
+      "mediaKicker": "OFFICIAL VISUAL / SIGNAL 01",
+      "primary": {
+        "label": "Open Spotify"
+      },
+      "secondary": {
+        "label": "Open Tidal"
+      },
+      "badgesLabel": "Also available on",
+      "badges": [
+        {
+          "text": "Spotify"
+        },
+        {
+          "text": "Tidal"
+        },
+        {
+          "text": "Apple Music"
+        },
+        {
+          "text": "YouTube Music"
+        }
+      ]
+    },
+    "featuresSection": {
+      "title": "Why the sound lands",
+      "subtitle": "Four pressure points define the project: tension, detail, contrast, and a visual language that refuses to separate sound from image."
+    },
+    "features": [
+      {
+        "icon": "speed",
+        "title": "Tactile production",
+        "description": "Layers feel cut, scraped, and placed with intention instead of washed together.",
+        "benefits": [
+          "Hard edges with room to breathe",
+          "Low-end pressure without mud",
+          "Details that reward repeat listens"
+        ]
+      },
+      {
+        "icon": "favorite",
+        "title": "Night-driven atmosphere",
+        "description": "The catalog stays tense and immersive without collapsing into shapeless darkness.",
+        "benefits": [
+          "Cinematic weight instead of empty gloom",
+          "Melody used sparingly and sharply",
+          "A mood that holds from start to finish"
+        ]
+      },
+      {
+        "icon": "auto_awesome",
+        "title": "Controlled contrast",
+        "description": "Rock force and electronic architecture push against each other instead of blending into compromise.",
+        "benefits": [
+          "Mechanical precision with human strain",
+          "Clean tension between impact and space",
+          "A sharper emotional afterimage"
+        ]
+      },
+      {
+        "icon": "preview",
+        "title": "Visual system thinking",
+        "description": "Artwork, tone, and interface behave like part of the same release-world.",
+        "benefits": [
+          "Consistent visual memory",
+          "Stronger identity across platforms",
+          "Sound and image reinforcing each other"
+        ]
+      }
+    ],
+    "processSection": {
+      "title": "How to enter the world",
+      "sidebarTitle": "You do not need to hear everything at once. Move through it in a deliberate order."
+    },
+    "processCards": [
+      "01 Start on Spotify for releases, follows, and the fastest line back to every new drop.",
+      "02 Move to Tidal when you want more space, more depth, and a cleaner view of the production decisions.",
+      "03 Use the wider platform spread when you want the project woven into your everyday listening flow.",
+      "04 Keep the footer channels nearby for updates, visuals, and direct lines back into the project."
+    ],
+    "servicesSection": {
+      "title": "Three ways in",
+      "subtitle": "Different entry points for different listening habits."
+    },
+    "runtimeApiSection": {
+      "title": "Songs in motion",
+      "subtitle": "This list updates from the configured feed and keeps local fallback data if the source takes longer to respond.",
+      "statusLabel": "Updated from iTunes Search through the API proxy"
+    },
+    "tidalAlbumsSection": {
+      "title": "Albums on TIDAL",
+      "subtitle": "Lynx Pardelle catalog data loaded from TIDAL through the site's secure proxy.",
+      "statusLabel": "Updated from TIDAL with countryCode MX",
+      "openLabel": "Open on TIDAL",
+      "attribution": "Data and artwork provided by TIDAL. TIDAL is a trademark of TIDAL Music AS."
+    },
+    "services": [
+      {
+        "icon": "rocket_launch",
+        "title": "First exposure",
+        "description": "The direct route for new listeners who want the atmosphere quickly.",
+        "benefits": [
+          "Begin with the latest release",
+          "Save the artist on your main platform",
+          "Come back at night, not in passing"
+        ]
+      },
+      {
+        "icon": "saved_search",
+        "title": "Deep immersion",
+        "description": "For listeners who care about texture, space, and what happens beneath the obvious layer.",
+        "benefits": [
+          "Use headphones or a focused speaker setup",
+          "Let transitions play through",
+          "Stay long enough for the details to surface"
+        ]
+      },
+      {
+        "icon": "autorenew",
+        "title": "Repeat contact",
+        "description": "The project opens further on repeated listens instead of immediate over-explanation.",
+        "benefits": [
+          "Return through multiple releases",
+          "Track the visual and sonic continuity",
+          "Build your own route through the catalog"
+        ]
+      }
+    ],
+    "presenceSection": {
+      "title": "Where the sound works best",
+      "subtitle": "Not social proof. Listening contexts."
+    },
+    "listeningModes": [
+      {
+        "icon": "schedule",
+        "title": "Late-night headphones",
+        "description": "The cleanest way to catch the tension between detail and impact.",
+        "benefits": [
+          "Micro-textures rise faster",
+          "Stereo movement feels intentional",
+          "The emotional pressure sits closer"
+        ]
+      },
+      {
+        "icon": "star",
+        "title": "Cinematic focus",
+        "description": "Work, writing, or visual sessions that need atmosphere without softness.",
+        "benefits": [
+          "Keeps momentum without becoming wallpaper",
+          "Adds scale without flattening attention",
+          "Holds a stronger visual mood"
+        ]
+      },
+      {
+        "icon": "trending_up",
+        "title": "Transit and motion",
+        "description": "Best when movement and repetition sharpen the pulse instead of diluting it.",
+        "benefits": [
+          "Walking and night driving both fit",
+          "Cuts through environmental noise",
+          "Leaves a stronger afterimage after the track ends"
+        ]
+      }
+    ],
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to start listening with context."
+    },
+    "faq": [
+      {
+        "id": "faq-genre",
+        "title": "What kind of music is this?",
+        "content": "Experimental electronic rock built around tension, atmosphere, and sharp production detail."
+      },
+      {
+        "id": "faq-entry",
+        "title": "Where should I start?",
+        "content": "Start with Spotify if you want the fastest route into the catalog, then move to Tidal for more depth and fidelity."
+      },
+      {
+        "id": "faq-platforms",
+        "title": "Is it only on Spotify and Tidal?",
+        "content": "No. Those are the main entry points, but the project is also present on other major streaming platforms."
+      },
+      {
+        "id": "faq-vision",
+        "title": "Why does the visual side matter so much?",
+        "content": "Because the project is built as one release-world where sound, texture, and image reinforce each other."
+      },
+      {
+        "id": "faq-updates",
+        "title": "How do I stay close to new releases?",
+        "content": "Follow on Spotify or Tidal first, then use the footer channels for visuals, updates, and direct contact points."
+      }
+    ],
+    "finalCtaSection": {
+      "title": "Enter the Lynx Pardelle signal",
+      "subtitle": "Follow now and keep the next release, visual rupture, and update within reach.",
+      "primaryLabel": "Follow on Spotify",
+      "secondaryLabel": "Follow on Tidal"
+    },
+    "footer": {
+      "copyright": "Copyright Lynx Pardelle. All rights reserved.",
+      "social": {
+        "spotify": {
+          "label": "Spotify",
+          "ariaLabel": "Open Lynx Pardelle on Spotify"
+        },
+        "facebook": {
+          "label": "Facebook",
+          "ariaLabel": "Open Lynx Pardelle on Facebook"
+        },
+        "instagram": {
+          "label": "Instagram",
+          "ariaLabel": "Open Lynx Pardelle on Instagram"
+        },
+        "whatsapp": {
+          "label": "WhatsApp",
+          "ariaLabel": "Contact Lynx Pardelle on WhatsApp"
+        }
+      },
+      "actions": {
+        "close": "Close"
+      },
+      "legal": {
+        "title": "Legal info",
+        "terms": {
+          "icon": "§",
+          "link": "Terms of use",
+          "title": "Terms of use",
+          "intro": "Music, visuals, and brand assets published under Lynx Pardelle remain protected intellectual property.",
+          "sections": [
+            {
+              "title": "Ownership",
+              "text": "Music, artwork, and release assets remain protected by copyright and related rights."
+            },
+            {
+              "title": "Use",
+              "text": "Unauthorized reproduction, resale, or redistribution of the project assets is not allowed."
+            }
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Privacy notice",
+          "title": "Privacy notice",
+          "intro": "Analytics and contact data are used only to improve the experience and respond through the listed channels.",
+          "points": [
+            "Analytics data is retained only as long as it remains operationally useful.",
+            "Personal information is not sold to third parties.",
+            "You can request clarification about data handling at any time."
+          ],
+          "consentNote": "You can update consent preferences whenever you want."
+        }
+      }
+    },
+    "consent": {
+      "title": "Analytics consent",
+      "feedback": {
+        "confirmRemove": "Are you sure you want to withdraw consent?"
+      },
+      "actions": {
+        "remove": "Remove consent",
+        "confirm": "Yes",
+        "cancel": "No"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "itunesSongSearch",
+      "method": "GET",
+      "url": "https://itunes.apple.com/search",
+      "allowedInputFields": ["term", "entity", "limit"],
+      "response": {
+        "allowedFields": [
+          "resultCount",
+          "results.trackName",
+          "results.trackViewUrl",
+          "results.collectionName",
+          "results.artistName",
+          "results.artworkUrl100",
+          "results.primaryGenreName"
+        ],
+        "maxBytes": 524288
+      },
+      "timeoutMs": 4000
+    },
+    {
+      "id": "tidalArtistAlbums",
+      "method": "GET",
+      "url": "https://openapi.tidal.com/v2/artists/10212180/relationships/albums",
+      "credentialRef": "zoolanding/api/music/tidal",
+      "auth": {
+        "type": "oauth2-client-credentials",
+        "tokenUrl": "https://auth.tidal.com/v1/oauth2/token",
+        "clientIdField": "clientId",
+        "clientSecretField": "clientSecret"
+      },
+      "headers": {
+        "Accept": "application/vnd.tidal.v1+json"
+      },
+      "allowedInputFields": ["countryCode", "include"],
+      "response": {
+        "allowedFields": [
+          "data.id",
+          "data.type",
+          "included.id",
+          "included.type",
+          "included.attributes.title",
+          "included.attributes.releaseDate",
+          "included.attributes.imageLinks"
+        ],
+        "maxBytes": 524288
+      },
+      "timeoutMs": 5000
+    }
+  ],
+  "actions": []
+}

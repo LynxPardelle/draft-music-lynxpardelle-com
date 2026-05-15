@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "music.lynxpardelle.com",
+  "lang": "fr",
+  "dictionary": {
+    "brand": {
+      "name": "LYNX PARDELLE"
+    },
+    "ui": {
+      "skipToMain": "Aller au contenu principal",
+      "toggleTheme": "Thème",
+      "toggleLanguage": "Langue",
+      "selectLanguage": "Choisir la langue",
+      "controls": {
+        "languageToggle": "Changer de langue"
+      },
+      "accessibility": {
+        "analyticsConsentDialog": "Boîte de dialogue de consentement analytique",
+        "dialog": "Boîte de dialogue",
+        "dialogOpened": "Boîte de dialogue ouverte",
+        "dialogClosed": "Boîte de dialogue fermée"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Télécharger les payloads du draft",
+        "writeDraftsToDisk": "Écrire les drafts sur le disque",
+        "configIssues": "Problèmes de configuration",
+        "analyticsLatest": "Derniers événements analytiques",
+        "unknownComponentPrefix": "Composant inconnu"
+      },
+      "brandCaption": "Surface d'écoute officielle",
+      "headerPrimaryCtaLabel": "Écouter",
+      "heroMediaCaption": "Signal visuel officiel de Lynx Pardelle"
+    },
+    "nav": {
+      "home": "Accueil",
+      "benefits": "Son",
+      "process": "Parcours",
+      "offers": "Accès",
+      "faq": "FAQ",
+      "contact": "Info",
+      "tracks": "Morceaux"
+    },
+    "hero": {
+      "tagline": "Signal officiel / rock electronique experimental.",
+      "title": "Lynx Pardelle",
+      "subtitle": "Pression, texture et remanence pour ecoutes nocturnes.",
+      "description": "Un catalogue tendu et immersif ou bords distordus, retenue melodique et identite visuelle avancent comme un seul systeme.",
+      "supportNote": "Commencez par un morceau, montez le volume et laissez le reste du catalogue prendre sa place.",
+      "mediaKicker": "VISUEL OFFICIEL / SIGNAL 01",
+      "primary": {
+        "label": "Ouvrir Spotify"
+      },
+      "secondary": {
+        "label": "Ouvrir Tidal"
+      },
+      "badgesLabel": "Aussi disponible sur",
+      "badges": [
+        {
+          "text": "Spotify"
+        },
+        {
+          "text": "Tidal"
+        },
+        {
+          "text": "Apple Music"
+        },
+        {
+          "text": "YouTube Music"
+        }
+      ]
+    },
+    "featuresSection": {
+      "title": "Pourquoi ce son reste",
+      "subtitle": "Quatre points de pression définissent le projet : tension, détail, contraste et un langage visuel qui refuse de séparer l'image du son."
+    },
+    "features": [
+      {
+        "icon": "speed",
+        "title": "Production tactile",
+        "description": "Les couches semblent coupées, frottées et placées avec intention au lieu d'être fondues ensemble.",
+        "benefits": [
+          "Des arêtes nettes avec de l'air",
+          "De la pression dans le bas sans boue",
+          "Des détails qui récompensent la réécoute"
+        ]
+      },
+      {
+        "icon": "favorite",
+        "title": "Atmosphère nocturne",
+        "description": "Le catalogue reste tendu et immersif sans tomber dans une obscurité informe.",
+        "benefits": [
+          "Poids cinématographique plutôt que vide",
+          "Mélodie utilisée avec précision",
+          "Une ambiance qui tient du début à la fin"
+        ]
+      },
+      {
+        "icon": "auto_awesome",
+        "title": "Contraste contrôlé",
+        "description": "La force rock et l'architecture électronique se heurtent sans devenir un compromis tiède.",
+        "benefits": [
+          "Précision mécanique avec tension humaine",
+          "Collision nette entre impact et espace",
+          "Une trace émotionnelle plus forte"
+        ]
+      },
+      {
+        "icon": "preview",
+        "title": "Pensée visuelle",
+        "description": "L'artwork, le ton et l'interface appartiennent au même monde de sortie.",
+        "benefits": [
+          "Mémoire visuelle cohérente",
+          "Identité plus forte sur les plateformes",
+          "Image et son qui se renforcent"
+        ]
+      }
+    ],
+    "processSection": {
+      "title": "Comment entrer dans l'univers",
+      "sidebarTitle": "Il n'est pas nécessaire de tout écouter d'un coup. Entrez par un parcours clair."
+    },
+    "processCards": [
+      "01 Commencez sur Spotify pour suivre les sorties et revenir rapidement à chaque nouveau morceau.",
+      "02 Passez sur Tidal quand vous voulez plus d'espace, plus de profondeur et une lecture plus nette de la production.",
+      "03 Utilisez les autres plateformes pour intégrer le projet dans votre rythme d'écoute quotidien.",
+      "04 Gardez les canaux du footer proches pour les visuels, les mises à jour et les points de contact directs."
+    ],
+    "servicesSection": {
+      "title": "Trois façons d'entrer",
+      "subtitle": "Des points d'accès différents pour des habitudes d'écoute différentes."
+    },
+    "runtimeApiSection": {
+      "title": "Morceaux en mouvement",
+      "subtitle": "La liste se met a jour depuis le flux configure et garde des donnees locales de secours si la source repond plus lentement.",
+      "statusLabel": "Mis a jour depuis iTunes Search via le proxy API"
+    },
+    "tidalAlbumsSection": {
+      "title": "Albums sur TIDAL",
+      "subtitle": "Catalogue de Lynx Pardelle charge depuis TIDAL via le proxy securise du site.",
+      "statusLabel": "Mis a jour depuis TIDAL avec countryCode MX",
+      "openLabel": "Ouvrir sur TIDAL",
+      "attribution": "Donnees et artwork fournis par TIDAL. TIDAL est une marque de TIDAL Music AS."
+    },
+    "services": [
+      {
+        "icon": "rocket_launch",
+        "title": "Premier impact",
+        "description": "La route directe pour capter l'atmosphère rapidement.",
+        "benefits": [
+          "Commencez par la sortie la plus récente",
+          "Sauvegardez l'artiste sur votre plateforme principale",
+          "Revenez la nuit, pas à la volée"
+        ]
+      },
+      {
+        "icon": "saved_search",
+        "title": "Immersion profonde",
+        "description": "Pour les auditeurs qui veulent vraiment texture, espace et couches moins évidentes.",
+        "benefits": [
+          "Utilisez un casque ou des enceintes attentives",
+          "Laissez vivre les transitions",
+          "Donnez du temps aux détails"
+        ]
+      },
+      {
+        "icon": "autorenew",
+        "title": "Contact répété",
+        "description": "Le projet s'ouvre davantage à la réécoute qu'à la surexplication immédiate.",
+        "benefits": [
+          "Revenez par plusieurs sorties",
+          "Suivez la continuité visuelle et sonore",
+          "Tracez votre propre route dans le catalogue"
+        ]
+      }
+    ],
+    "presenceSection": {
+      "title": "Là où le son fonctionne le mieux",
+      "subtitle": "Pas des témoignages. Des contextes d'écoute."
+    },
+    "listeningModes": [
+      {
+        "icon": "schedule",
+        "title": "Casque tard dans la nuit",
+        "description": "La façon la plus nette de sentir la tension entre détail et impact.",
+        "benefits": [
+          "Les micro-textures montent plus vite",
+          "Le mouvement stéréo devient évident",
+          "La pression émotionnelle se rapproche"
+        ]
+      },
+      {
+        "icon": "star",
+        "title": "Concentration cinématographique",
+        "description": "Travail, écriture ou sessions visuelles qui demandent de l'atmosphère sans mollesse.",
+        "benefits": [
+          "Maintient l'élan sans devenir décor",
+          "Ajoute de l'échelle sans écraser l'attention",
+          "Installe une humeur visuelle plus forte"
+        ]
+      },
+      {
+        "icon": "trending_up",
+        "title": "Trajet et mouvement",
+        "description": "Fonctionne mieux quand le déplacement et la répétition aiguisent le pouls au lieu de le dissoudre.",
+        "benefits": [
+          "Marche et conduite de nuit conviennent",
+          "Traverse mieux le bruit ambiant",
+          "Laisse une trace plus forte après le morceau"
+        ]
+      }
+    ],
+    "faqSection": {
+      "title": "Questions fréquentes",
+      "subtitle": "Le nécessaire pour commencer à écouter avec contexte."
+    },
+    "faq": [
+      {
+        "id": "faq-genre",
+        "title": "Quel type de musique est-ce ?",
+        "content": "Du rock électronique expérimental construit autour de la tension, de l'atmosphère et du détail de production."
+      },
+      {
+        "id": "faq-entry",
+        "title": "Par où commencer ?",
+        "content": "Commencez par Spotify pour entrer rapidement dans le catalogue, puis passez à Tidal pour plus de profondeur et de fidélité."
+      },
+      {
+        "id": "faq-platforms",
+        "title": "Seulement sur Spotify et Tidal ?",
+        "content": "Non. Ce sont les points d'entrée principaux, mais le projet existe aussi sur d'autres grandes plateformes."
+      },
+      {
+        "id": "faq-vision",
+        "title": "Pourquoi l'aspect visuel compte-t-il autant ?",
+        "content": "Parce que le projet fonctionne comme un seul monde de sortie où texture, image et son se renforcent."
+      },
+      {
+        "id": "faq-updates",
+        "title": "Comment rester proche des nouvelles sorties ?",
+        "content": "Suivez Spotify ou Tidal d'abord, puis utilisez les canaux du footer pour les visuels, les mises à jour et les points de contact."
+      }
+    ],
+    "finalCtaSection": {
+      "title": "Entrez dans le signal Lynx Pardelle",
+      "subtitle": "Suivez maintenant et gardez la prochaine sortie, la prochaine rupture visuelle et la prochaine mise à jour à portée.",
+      "primaryLabel": "Suivre sur Spotify",
+      "secondaryLabel": "Suivre sur Tidal"
+    },
+    "footer": {
+      "copyright": "Copyright Lynx Pardelle. Tous droits reserves.",
+      "social": {
+        "spotify": {
+          "label": "Spotify",
+          "ariaLabel": "Ouvrir Lynx Pardelle sur Spotify"
+        },
+        "facebook": {
+          "label": "Facebook",
+          "ariaLabel": "Ouvrir Lynx Pardelle sur Facebook"
+        },
+        "instagram": {
+          "label": "Instagram",
+          "ariaLabel": "Ouvrir Lynx Pardelle sur Instagram"
+        },
+        "whatsapp": {
+          "label": "WhatsApp",
+          "ariaLabel": "Contacter Lynx Pardelle sur WhatsApp"
+        }
+      },
+      "actions": {
+        "close": "Fermer"
+      },
+      "legal": {
+        "title": "Infos légales",
+        "terms": {
+          "icon": "§",
+          "link": "Conditions d'utilisation",
+          "title": "Conditions d'utilisation",
+          "intro": "La musique, les visuels et les actifs de marque publiés sous Lynx Pardelle restent une propriété intellectuelle protégée.",
+          "sections": [
+            {
+              "title": "Propriété",
+              "text": "La musique, l'artwork et les actifs du projet restent protégés par le droit d'auteur et les droits associés."
+            },
+            {
+              "title": "Utilisation",
+              "text": "La reproduction, la revente ou la redistribution non autorisées des actifs du projet ne sont pas permises."
+            }
+          ]
+        },
+        "data": {
+          "icon": "◌",
+          "link": "Notice de confidentialité",
+          "title": "Notice de confidentialité",
+          "intro": "Les données analytiques et de contact sont utilisées seulement pour améliorer l'expérience et répondre via les canaux listés.",
+          "points": [
+            "Les données analytiques sont conservées seulement tant qu'elles restent utiles sur le plan opérationnel.",
+            "Les informations personnelles ne sont pas vendues à des tiers.",
+            "Vous pouvez demander des précisions sur le traitement des données à tout moment."
+          ],
+          "consentNote": "Vous pouvez mettre à jour vos préférences de consentement à tout moment."
+        }
+      }
+    },
+    "consent": {
+      "title": "Consentement analytique",
+      "feedback": {
+        "confirmRemove": "Voulez-vous vraiment retirer le consentement ?"
+      },
+      "actions": {
+        "remove": "Retirer le consentement",
+        "confirm": "Oui",
+        "cancel": "Non"
+      }
+    }
+  }
+}
