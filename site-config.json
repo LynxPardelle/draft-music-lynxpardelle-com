@@ -263,5 +263,14 @@
         }
       }
     ]
+  },
+  "aliases": [],
+  "environments": {
+    "test": {
+      "aliases": [
+        "test.music.lynxpardelle.com",
+        "test.music.zoolandingpage.com.mx"
+      ]
+    }
   }
 }
