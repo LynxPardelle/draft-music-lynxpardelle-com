@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "music.lynxpardelle.com",
+  "rootIds": [
+    "skipToMainLink",
+    "notFoundPage"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "routePurpose": "not-found-recovery"
+  },
+  "seo": {
+    "title": {
+      "es": "Página no encontrada | LYNX PARDELLE",
+      "en": "Page not found | LYNX PARDELLE",
+      "fr": "Page introuvable | LYNX PARDELLE",
+      "de": "Seite nicht gefunden | LYNX PARDELLE"
+    },
+    "description": {
+      "es": "La página solicitada no está disponible en LYNX PARDELLE. Vuelve al inicio o usa una ruta publicada para continuar.",
+      "en": "The requested page is not available on LYNX PARDELLE. Return home or use a published route to continue.",
+      "fr": "La page demandée n'est pas disponible sur LYNX PARDELLE. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+      "de": "Die angeforderte Seite ist auf LYNX PARDELLE nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+    },
+    "canonical": "https://music.lynxpardelle.com/404",
+    "robots": "noindex,follow",
+    "keywords": {
+      "es": [
+        "pagina no encontrada",
+        "LYNX PARDELLE"
+      ],
+      "en": [
+        "page not found",
+        "LYNX PARDELLE"
+      ],
+      "fr": [
+        "page introuvable",
+        "LYNX PARDELLE"
+      ],
+      "de": [
+        "seite nicht gefunden",
+        "LYNX PARDELLE"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Página no encontrada | LYNX PARDELLE",
+        "en": "Page not found | LYNX PARDELLE",
+        "fr": "Page introuvable | LYNX PARDELLE",
+        "de": "Seite nicht gefunden | LYNX PARDELLE"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en LYNX PARDELLE. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on LYNX PARDELLE. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur LYNX PARDELLE. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf LYNX PARDELLE nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+      "url": "https://music.lynxpardelle.com/404",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Página no encontrada | LYNX PARDELLE",
+        "en": "Page not found | LYNX PARDELLE",
+        "fr": "Page introuvable | LYNX PARDELLE",
+        "de": "Seite nicht gefunden | LYNX PARDELLE"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en LYNX PARDELLE. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on LYNX PARDELLE. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur LYNX PARDELLE. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf LYNX PARDELLE nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+      "card": "summary_large_image"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Página no encontrada | LYNX PARDELLE",
+        "description": "La página solicitada no está disponible en LYNX PARDELLE. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "url": "https://music.lynxpardelle.com/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "rutas"
+    ],
+    "scrollMilestones": [
+      50,
+      100
+    ]
+  }
+}
