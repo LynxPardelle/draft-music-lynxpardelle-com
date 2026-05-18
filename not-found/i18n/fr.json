@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "domain": "music.lynxpardelle.com",
+  "pageId": "not-found",
+  "lang": "fr",
+  "dictionary": {
+    "hero": {
+      "eyebrow": "Page introuvable",
+      "title": "Cette route n'est pas publiée.",
+      "lead": "Nous n'avons pas trouvé de page active pour cette adresse sur LYNX PARDELLE. Vous pouvez revenir à l'accueil et continuer depuis une route publiée.",
+      "primaryLabel": "Retour à l'accueil"
+    },
+    "signal": {
+      "code": "404",
+      "title": "La page n'est pas disponible.",
+      "lead": "Le site reste actif. Cette réponse s'affiche à l'URL originale pour éviter les redirections inutiles."
+    },
+    "routes": {
+      "title": "Routes utiles pour continuer.",
+      "lead": "Ces routes publiées permettent de reprendre la navigation sans revenir par erreur à l'accueil.",
+      "items": [
+        {
+          "label": "Ouvrir Home"
+        }
+      ]
+    },
+    "ui": {
+      "accessibility": {
+        "skipToContent": "Aller au contenu principal"
+      }
+    }
+  }
+}
