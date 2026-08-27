@@ -71,6 +71,9 @@
       "version": "1.0.0",
       "description": "Music landing page for LYNX PARDELLE."
     },
+    "icons": {
+      "favicon": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png"
+    },
     "seo": {
       "siteName": "LYNX PARDELLE",
       "title": "LYNX PARDELLE",
