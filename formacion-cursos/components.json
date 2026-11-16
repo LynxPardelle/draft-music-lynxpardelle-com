@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "domain": "music.lynxpardelle.com",
+  "pageId": "formacion-cursos",
+  "components": [
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Cursos",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(38px, 6vw, 82px)",
+          "color": "#f7f3ea",
+          "marginBlock": "9px 16px",
+          "maxWidth": "17ch"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Explorar cursos",
+        "href": "#catalogo",
+        "styles": {
+          "color": "#141217",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#f6c17d",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-label",
+      "type": "text",
+      "config": {
+        "id": "hero-label",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#f6c17d"
+        }
+      }
+    },
+    {
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Programas de música electrónica, diseño sonoro, Music Business y producción audiovisual.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "61ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-action"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "7px 18px",
+          "marginTop": "23px"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading",
+          "hero-description",
+          "hero-actions"
+        ],
+        "styles": {
+          "minWidth": "0",
+          "position": "relative",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-curso-musica-electronica.webp",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "position": "absolute",
+          "inset": "0",
+          "height": "100%",
+          "objectFit": "cover",
+          "objectPosition": "center"
+        }
+      }
+    },
+    {
+      "id": "hero-shade",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [],
+        "styles": {
+          "position": "absolute",
+          "inset": "0",
+          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
+        }
+      }
+    },
+    {
+      "id": "hero-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-copy"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "display": "grid",
+          "alignItems": "center",
+          "minHeight": "clamp(400px, 69svh, 620px)"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "hero-art",
+          "hero-shade",
+          "hero-frame"
+        ],
+        "styles": {
+          "position": "relative",
+          "overflow": "hidden",
+          "borderBlock": "1px solid #665446"
+        }
+      }
+    },
+    {
+      "id": "group-title-0",
+      "type": "text",
+      "config": {
+        "id": "group-title-0",
+        "text": "Cursos",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-0",
+      "type": "text",
+      "config": {
+        "id": "entry-title-0",
+        "text": "Creación de música electrónica y diseño sonoro",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-0",
+      "type": "text",
+      "config": {
+        "id": "entry-description-0",
+        "text": "Lleva una idea musical del primer loop a una pista completa. Trabaja con audio y MIDI en Ableton Live, compón tus partes y diseña sonidos para la producción.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-0",
+      "type": "link",
+      "config": {
+        "text": "Ver el curso",
+        "href": "https://curso-musica-electronica.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Creación de música electrónica y diseño sonoro"
+      }
+    },
+    {
+      "id": "entry-0",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-0",
+          "entry-description-0",
+          "entry-link-0"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-1",
+      "type": "text",
+      "config": {
+        "id": "entry-title-1",
+        "text": "Diseño sonoro digital",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-1",
+      "type": "text",
+      "config": {
+        "id": "entry-description-1",
+        "text": "Crea sonidos para tus producciones a partir de sintetizadores y grabaciones. Explora cómo cambian el timbre y la textura al modificar una fuente sonora.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-1",
+      "type": "link",
+      "config": {
+        "text": "Ver el curso",
+        "href": "https://curso-diseno-sonoro.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Diseño sonoro digital"
+      }
+    },
+    {
+      "id": "entry-1",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-1",
+          "entry-description-1",
+          "entry-link-1"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-2",
+      "type": "text",
+      "config": {
+        "id": "entry-title-2",
+        "text": "Music Business para artistas independientes",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-2",
+      "type": "text",
+      "config": {
+        "id": "entry-description-2",
+        "text": "Organiza la parte profesional de tu proyecto musical. Define a quién quieres llegar y entiende cómo se conectan la industria, la gestión y la distribución digital.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-2",
+      "type": "link",
+      "config": {
+        "text": "Ver el curso",
+        "href": "https://curso-music-business.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Music Business para artistas independientes"
+      }
+    },
+    {
+      "id": "entry-2",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-2",
+          "entry-description-2",
+          "entry-link-2"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-3",
+      "type": "text",
+      "config": {
+        "id": "entry-title-3",
+        "text": "Producción audiovisual, edición y animación",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-3",
+      "type": "text",
+      "config": {
+        "id": "entry-description-3",
+        "text": "Desarrolla videoblogs, cortometrajes, videoclips y piezas animadas. Recorre el proceso desde el guion y el rodaje hasta la edición y la composición visual.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-3",
+      "type": "link",
+      "config": {
+        "text": "Ver el curso",
+        "href": "https://curso-produccion-audiovisual.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Producción audiovisual, edición y animación"
+      }
+    },
+    {
+      "id": "entry-3",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-3",
+          "entry-description-3",
+          "entry-link-3"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-0",
+          "entry-1",
+          "entry-2",
+          "entry-3"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-0",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-0",
+          "group-items-0"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "directory-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "group-0"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)"
+        }
+      }
+    },
+    {
+      "id": "directory",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "directory-frame"
+        ],
+        "styles": {
+          "background": "#f7f3ea",
+          "color": "#141217"
+        },
+        "id": "catalogo",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "nav-cursos",
+      "type": "link",
+      "config": {
+        "text": "Cursos",
+        "href": "https://music.lynxpardelle.com/formacion/cursos",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "underline"
+        },
+        "ariaCurrent": "page"
+      }
+    },
+    {
+      "id": "nav-masterclasses",
+      "type": "link",
+      "config": {
+        "text": "Masterclasses",
+        "href": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "text": "Servicios",
+        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "brand-logo",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "38px",
+          "height": "38px",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "id": "brand-home",
+      "type": "link",
+      "config": {
+        "text": "LYNX PARDELLE",
+        "href": "https://music.lynxpardelle.com/formacion",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "800",
+          "letterSpacing": ".15em",
+          "textDecoration": "none",
+          "gap": "10px"
+        },
+        "components": [
+          "brand-logo"
+        ]
+      }
+    },
+    {
+      "id": "site-nav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "components": [
+          "nav-cursos",
+          "nav-masterclasses",
+          "nav-servicios"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px"
+        },
+        "ariaLabel": "Navegación principal"
+      }
+    },
+    {
+      "id": "site-header",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "components": [
+          "brand-home",
+          "site-nav"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "70px",
+          "justifyContent": "space-between",
+          "paddingBlock": "7px"
+        }
+      }
+    },
+    {
+      "id": "footer-brand",
+      "type": "text",
+      "config": {
+        "id": "footer-brand",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "730"
+        }
+      }
+    },
+    {
+      "id": "music-project",
+      "type": "link",
+      "config": {
+        "text": "Proyecto musical ↗",
+        "href": "https://music.lynxpardelle.com/",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-credit",
+      "type": "link",
+      "config": {
+        "text": "Sitio creado por ZooBeriah Systems",
+        "href": "https://zooberiahsystems.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-footer",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "components": [
+          "footer-brand",
+          "music-project",
+          "site-credit"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "85px",
+          "justifyContent": "space-between",
+          "borderTop": "1px solid #40383a"
+        }
+      }
+    },
+    {
+      "id": "main-content",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "components": [
+          "hero",
+          "directory"
+        ],
+        "styles": {},
+        "id": "contenido"
+      }
+    },
+    {
+      "id": "site-shell",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "site-header",
+          "main-content",
+          "site-footer"
+        ],
+        "styles": {
+          "background": "#141217",
+          "color": "#f7f3ea",
+          "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
+          "lineHeight": "1.6",
+          "minHeight": "100vh"
+        }
+      }
+    }
+  ]
+}
