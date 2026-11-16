@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "music.lynxpardelle.com",
+  "pageId": "formacion-masterclasses",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Masterclasses | Lynx Pardelle",
+    "description": "Sesiones centradas en audio, MIDI, teoría, producción, síntesis y negocio musical.",
+    "canonical": "https://music.lynxpardelle.com/formacion/masterclasses",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-grabacion-voz.webp"
+    }
+  }
+}
