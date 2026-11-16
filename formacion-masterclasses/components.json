@@ -1,0 +1,2545 @@
+{
+  "version": 1,
+  "domain": "music.lynxpardelle.com",
+  "pageId": "formacion-masterclasses",
+  "components": [
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Masterclasses",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(38px, 6vw, 82px)",
+          "color": "#f7f3ea",
+          "marginBlock": "9px 16px",
+          "maxWidth": "17ch"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Explorar masterclasses",
+        "href": "#catalogo",
+        "styles": {
+          "color": "#141217",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#f6c17d",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-label",
+      "type": "text",
+      "config": {
+        "id": "hero-label",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#f6c17d"
+        }
+      }
+    },
+    {
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Sesiones centradas en audio, MIDI, teoría, producción, síntesis y negocio musical.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "61ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-action"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "7px 18px",
+          "marginTop": "23px"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading",
+          "hero-description",
+          "hero-actions"
+        ],
+        "styles": {
+          "minWidth": "0",
+          "position": "relative",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-grabacion-voz.webp",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "position": "absolute",
+          "inset": "0",
+          "height": "100%",
+          "objectFit": "cover",
+          "objectPosition": "center"
+        }
+      }
+    },
+    {
+      "id": "hero-shade",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [],
+        "styles": {
+          "position": "absolute",
+          "inset": "0",
+          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
+        }
+      }
+    },
+    {
+      "id": "hero-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-copy"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "display": "grid",
+          "alignItems": "center",
+          "minHeight": "clamp(400px, 69svh, 620px)"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "hero-art",
+          "hero-shade",
+          "hero-frame"
+        ],
+        "styles": {
+          "position": "relative",
+          "overflow": "hidden",
+          "borderBlock": "1px solid #665446"
+        }
+      }
+    },
+    {
+      "id": "group-title-0",
+      "type": "text",
+      "config": {
+        "id": "group-title-0",
+        "text": "Audio",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-0",
+      "type": "text",
+      "config": {
+        "id": "entry-title-0",
+        "text": "Grabación de voz e instrumentos",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-0",
+      "type": "text",
+      "config": {
+        "id": "entry-description-0",
+        "text": "Sigue el recorrido de la señal desde la entrada de audio hasta la pista. Aprende a preparar tu sesión, hacer una toma y escuchar cómo el espacio y el nivel de entrada afectan la grabación.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-0",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-grabacion-de-voz-e-instrumentos.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Grabación de voz e instrumentos"
+      }
+    },
+    {
+      "id": "entry-0",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-0",
+          "entry-description-0",
+          "entry-link-0"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-1",
+      "type": "text",
+      "config": {
+        "id": "entry-title-1",
+        "text": "Loops en vivo",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-1",
+      "type": "text",
+      "config": {
+        "id": "entry-description-1",
+        "text": "Prepara una sesión que puedas tocar con clips de audio. Combina patrones en bucle, sonidos de un solo disparo y muestras transpuestas para variar lo que se escucha durante una interpretación.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-1",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-loops-en-vivo.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Loops en vivo"
+      }
+    },
+    {
+      "id": "entry-1",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-1",
+          "entry-description-1",
+          "entry-link-1"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-2",
+      "type": "text",
+      "config": {
+        "id": "entry-title-2",
+        "text": "Procesos de audio I: tiempo, dinámica y filtros",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-2",
+      "type": "text",
+      "config": {
+        "id": "entry-description-2",
+        "text": "Aprende a reconocer qué cambia cuando un efecto actúa sobre el espacio, el espectro o la dinámica de una señal. Escucha el efecto de cada procesador en una pista antes de combinarlos.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-2",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-procesos-de-audio-1.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Procesos de audio I: tiempo, dinámica y filtros"
+      }
+    },
+    {
+      "id": "entry-2",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-2",
+          "entry-description-2",
+          "entry-link-2"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-3",
+      "type": "text",
+      "config": {
+        "id": "entry-title-3",
+        "text": "Procesos de audio II: modulación y utilidades",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-3",
+      "type": "text",
+      "config": {
+        "id": "entry-description-3",
+        "text": "Explora cómo dar movimiento a un sonido con filtros, paneo y efectos de modulación. Aprende a ajustar el nivel y la imagen estéreo para escuchar qué aporta cada proceso.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-3",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-procesos-de-audio-2.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Procesos de audio II: modulación y utilidades"
+      }
+    },
+    {
+      "id": "entry-3",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-3",
+          "entry-description-3",
+          "entry-link-3"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-0",
+          "entry-1",
+          "entry-2",
+          "entry-3"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-0",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-0",
+          "group-items-0"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-1",
+      "type": "text",
+      "config": {
+        "id": "group-title-1",
+        "text": "MIDI",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-4",
+      "type": "text",
+      "config": {
+        "id": "entry-title-4",
+        "text": "Instrumentos y efectos MIDI",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-4",
+      "type": "text",
+      "config": {
+        "id": "entry-description-4",
+        "text": "Construye una pista a partir de notas MIDI y experimenta con dispositivos que alteran lo que toca el instrumento. Explora variaciones de altura, duración e intensidad desde el mismo patrón.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-4",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-instrumentos-y-efectos-midi.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Instrumentos y efectos MIDI"
+      }
+    },
+    {
+      "id": "entry-4",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-4",
+          "entry-description-4",
+          "entry-link-4"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-5",
+      "type": "text",
+      "config": {
+        "id": "entry-title-5",
+        "text": "Baterías con Impulse",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-5",
+      "type": "text",
+      "config": {
+        "id": "entry-description-5",
+        "text": "Trabaja con Impulse, el instrumento de percusión de Ableton Live. Carga golpes, modifica las muestras y usa su carácter para construir una batería propia.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-5",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-impulse.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Baterías con Impulse"
+      }
+    },
+    {
+      "id": "entry-5",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-5",
+          "entry-description-5",
+          "entry-link-5"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-6",
+      "type": "text",
+      "config": {
+        "id": "entry-title-6",
+        "text": "Baterías con Drum Rack",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-6",
+      "type": "text",
+      "config": {
+        "id": "entry-description-6",
+        "text": "Diseña un kit en Drum Rack que combine muestras e instrumentos. Decide qué procesamiento recibe cada pad y asigna controles que puedas mover mientras tocas.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-6",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-drum-rack.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Baterías con Drum Rack"
+      }
+    },
+    {
+      "id": "entry-6",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-6",
+          "entry-description-6",
+          "entry-link-6"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-7",
+      "type": "text",
+      "config": {
+        "id": "entry-title-7",
+        "text": "Edición de muestras con Simpler",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-7",
+      "type": "text",
+      "config": {
+        "id": "entry-description-7",
+        "text": "Convierte una grabación en material para tocar desde MIDI. Usa Simpler para seleccionar y dividir una muestra, y combina sus fragmentos para escribir una frase nueva.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-7",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-simpler.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Edición de muestras con Simpler"
+      }
+    },
+    {
+      "id": "entry-7",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-7",
+          "entry-description-7",
+          "entry-link-7"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-8",
+      "type": "text",
+      "config": {
+        "id": "entry-title-8",
+        "text": "Introducción a Sampler",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-8",
+      "type": "text",
+      "config": {
+        "id": "entry-description-8",
+        "text": "Explora Sampler, el instrumento de Ableton Live para editar muestras y cambiar su carácter por medio de la resíntesis. Escucha cómo un único sonido grabado puede servir de base para un instrumento tocable.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-8",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-sampler.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Introducción a Sampler"
+      }
+    },
+    {
+      "id": "entry-8",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-8",
+          "entry-description-8",
+          "entry-link-8"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-4",
+          "entry-5",
+          "entry-6",
+          "entry-7",
+          "entry-8"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-1",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-1",
+          "group-items-1"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-2",
+      "type": "text",
+      "config": {
+        "id": "group-title-2",
+        "text": "Teoría musical",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-9",
+      "type": "text",
+      "config": {
+        "id": "entry-title-9",
+        "text": "Ritmo y escritura para percusión",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-9",
+      "type": "text",
+      "config": {
+        "id": "entry-description-9",
+        "text": "Relaciona lo que escuchas en un compás con la forma de escribirlo. Practica subdivisiones, valores rítmicos y tresillos con ejemplos de batería y percusión.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-9",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-ritmo.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Ritmo y escritura para percusión"
+      }
+    },
+    {
+      "id": "entry-9",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-9",
+          "entry-description-9",
+          "entry-link-9"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-10",
+      "type": "text",
+      "config": {
+        "id": "entry-title-10",
+        "text": "Notas musicales y lectura básica",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-10",
+      "type": "text",
+      "config": {
+        "id": "entry-description-10",
+        "text": "Identifica las alturas con sus nombres y con el cifrado americano. Después, llévalas al pentagrama y reconoce cómo se escriben en clave de sol y clave de fa.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-10",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-notas-musicales.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Notas musicales y lectura básica"
+      }
+    },
+    {
+      "id": "entry-10",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-10",
+          "entry-description-10",
+          "entry-link-10"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-11",
+      "type": "text",
+      "config": {
+        "id": "entry-title-11",
+        "text": "Intervalos melódicos y armónicos",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-11",
+      "type": "text",
+      "config": {
+        "id": "entry-description-11",
+        "text": "Escucha y mide la distancia entre dos notas. Compara cómo se percibe un intervalo cuando las notas suenan de forma sucesiva o simultánea.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-11",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-intervalos.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Intervalos melódicos y armónicos"
+      }
+    },
+    {
+      "id": "entry-11",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-11",
+          "entry-description-11",
+          "entry-link-11"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-12",
+      "type": "text",
+      "config": {
+        "id": "entry-title-12",
+        "text": "Acordes: tríadas, séptimas y extensiones",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-12",
+      "type": "text",
+      "config": {
+        "id": "entry-description-12",
+        "text": "Aprende qué notas componen una tríada y escucha cómo cambia el acorde cuando le añades una séptima o una extensión. Usa la comparación para decidir qué color armónico necesita tu música.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-12",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-acordes.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Acordes: tríadas, séptimas y extensiones"
+      }
+    },
+    {
+      "id": "entry-12",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-12",
+          "entry-description-12",
+          "entry-link-12"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-13",
+      "type": "text",
+      "config": {
+        "id": "entry-title-13",
+        "text": "Escalas I: escala mayor y armonización",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-13",
+      "type": "text",
+      "config": {
+        "id": "entry-description-13",
+        "text": "Parte de una escala mayor y averigua qué acordes puedes construir con sus notas. Usa esos acordes para crear una progresión y escribir una melodía que se escuche en relación con ella.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-13",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-escalas-mayores.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Escalas I: escala mayor y armonización"
+      }
+    },
+    {
+      "id": "entry-13",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-13",
+          "entry-description-13",
+          "entry-link-13"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-14",
+      "type": "text",
+      "config": {
+        "id": "entry-title-14",
+        "text": "Escalas II: escalas menores",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-14",
+      "type": "text",
+      "config": {
+        "id": "entry-description-14",
+        "text": "Compara las escalas menor natural, armónica y melódica. Observa qué notas cambian entre cada una y cómo esas diferencias abren otras posibilidades para la melodía y los acordes.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-14",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-escalas-menores.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Escalas II: escalas menores"
+      }
+    },
+    {
+      "id": "entry-14",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-14",
+          "entry-description-14",
+          "entry-link-14"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-9",
+          "entry-10",
+          "entry-11",
+          "entry-12",
+          "entry-13",
+          "entry-14"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-2",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-2",
+          "group-items-2"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-3",
+      "type": "text",
+      "config": {
+        "id": "group-title-3",
+        "text": "Producción y posproducción",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-15",
+      "type": "text",
+      "config": {
+        "id": "entry-title-15",
+        "text": "Estructura y arreglo musical",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-15",
+      "type": "text",
+      "config": {
+        "id": "entry-description-15",
+        "text": "Lleva una idea repetitiva a una línea de tiempo con secciones y cambios de energía. Trabaja en la vista Arrangement de Ableton Live para organizar capas, automatizaciones y archivos de la sesión.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-15",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-estructura-musical.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Estructura y arreglo musical"
+      }
+    },
+    {
+      "id": "entry-15",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-15",
+          "entry-description-15",
+          "entry-link-15"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-16",
+      "type": "text",
+      "config": {
+        "id": "entry-title-16",
+        "text": "Mezcla digital",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-16",
+      "type": "text",
+      "config": {
+        "id": "entry-description-16",
+        "text": "Desarrolla una mezcla desde el balance inicial hasta los ajustes de claridad, profundidad y dinámica. Revisa qué ocupa cada instrumento y cuándo conviene agruparlo con otros.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-16",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-mezcla-digital.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Mezcla digital"
+      }
+    },
+    {
+      "id": "entry-16",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-16",
+          "entry-description-16",
+          "entry-link-16"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-17",
+      "type": "text",
+      "config": {
+        "id": "entry-title-17",
+        "text": "Masterización musical",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-17",
+      "type": "text",
+      "config": {
+        "id": "entry-description-17",
+        "text": "Escucha qué necesita una mezcla terminada antes de elegir una cadena de masterización. Compara el procesamiento en serie y en paralelo y revisa el resultado con referencias.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-17",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-masterizacion-profesional.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Masterización musical"
+      }
+    },
+    {
+      "id": "entry-17",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-17",
+          "entry-description-17",
+          "entry-link-17"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-18",
+      "type": "text",
+      "config": {
+        "id": "entry-title-18",
+        "text": "Ruteo avanzado y grupos de audio y MIDI",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-18",
+      "type": "text",
+      "config": {
+        "id": "entry-description-18",
+        "text": "Organiza una sesión que necesita procesamiento compartido. Traza el recorrido de la señal entre pistas, grupos de instrumentos y cadenas de efectos, y elige cuándo usar un retorno.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-18",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-ruteo-y-grupos.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Ruteo avanzado y grupos de audio y MIDI"
+      }
+    },
+    {
+      "id": "entry-18",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-18",
+          "entry-description-18",
+          "entry-link-18"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-15",
+          "entry-16",
+          "entry-17",
+          "entry-18"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-3",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-3",
+          "group-items-3"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-4",
+      "type": "text",
+      "config": {
+        "id": "group-title-4",
+        "text": "Diseño sonoro",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-19",
+      "type": "text",
+      "config": {
+        "id": "entry-title-19",
+        "text": "Síntesis aditiva, sustractiva y FM",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-19",
+      "type": "text",
+      "config": {
+        "id": "entry-description-19",
+        "text": "Compara tres maneras de construir un timbre a partir de oscilaciones y armónicos. Aprende qué cambian los filtros, las envolventes y los moduladores cuando partes de una nota sencilla.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-19",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Síntesis aditiva, sustractiva y FM"
+      }
+    },
+    {
+      "id": "entry-19",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-19",
+          "entry-description-19",
+          "entry-link-19"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-20",
+      "type": "text",
+      "config": {
+        "id": "entry-title-20",
+        "text": "Síntesis de tabla de ondas",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-20",
+      "type": "text",
+      "config": {
+        "id": "entry-description-20",
+        "text": "Diseña un timbre que cambia mientras suena una nota. Explora el recorrido entre formas de onda de una tabla y controla ese movimiento con envolventes o un LFO.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-20",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-sintesis-de-tabla-de-ondas.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Síntesis de tabla de ondas"
+      }
+    },
+    {
+      "id": "entry-20",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-20",
+          "entry-description-20",
+          "entry-link-20"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-21",
+      "type": "text",
+      "config": {
+        "id": "entry-title-21",
+        "text": "Síntesis por modelado físico",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-21",
+      "type": "text",
+      "config": {
+        "id": "entry-description-21",
+        "text": "Trabaja con sintetizadores que imitan la vibración de materiales. Escucha cómo la excitación y la resonancia cambian el ataque, el cuerpo y la caída de un sonido.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-21",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Síntesis por modelado físico"
+      }
+    },
+    {
+      "id": "entry-21",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-21",
+          "entry-description-21",
+          "entry-link-21"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-22",
+      "type": "text",
+      "config": {
+        "id": "entry-title-22",
+        "text": "Síntesis orgánica y granular",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-22",
+      "type": "text",
+      "config": {
+        "id": "entry-description-22",
+        "text": "Usa una grabación como materia prima para diseñar una textura. Controla altura y dinámica, y explora cómo el tratamiento granular reconstruye la muestra en fragmentos pequeños.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-22",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Síntesis orgánica y granular"
+      }
+    },
+    {
+      "id": "entry-22",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-22",
+          "entry-description-22",
+          "entry-link-22"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-23",
+      "type": "text",
+      "config": {
+        "id": "entry-title-23",
+        "text": "Edición y transformación del sonido",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-23",
+      "type": "text",
+      "config": {
+        "id": "entry-description-23",
+        "text": "Aprende a modificar una muestra con una intención concreta. Ajusta su altura, envolvente y dinámica, y combina procesos para generar una versión que ocupe otro lugar en la pieza.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-23",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-edicion-del-sonido.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Edición y transformación del sonido"
+      }
+    },
+    {
+      "id": "entry-23",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-23",
+          "entry-description-23",
+          "entry-link-23"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-4",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-19",
+          "entry-20",
+          "entry-21",
+          "entry-22",
+          "entry-23"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-4",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-4",
+          "group-items-4"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-5",
+      "type": "text",
+      "config": {
+        "id": "group-title-5",
+        "text": "Music Business",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-24",
+      "type": "text",
+      "config": {
+        "id": "entry-title-24",
+        "text": "Profesionaliza tu proyecto musical",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-24",
+      "type": "text",
+      "config": {
+        "id": "entry-description-24",
+        "text": "Define cómo presentar tu proyecto musical, a quién quieres llegar y en qué espacios tendría sentido mostrarlo. Explora cómo sostener relaciones con otras personas de tu escena.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-24",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-profesionaliza-tu-proyecto-musical.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Profesionaliza tu proyecto musical"
+      }
+    },
+    {
+      "id": "entry-24",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-24",
+          "entry-description-24",
+          "entry-link-24"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-25",
+      "type": "text",
+      "config": {
+        "id": "entry-title-25",
+        "text": "La industria musical",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-25",
+      "type": "text",
+      "config": {
+        "id": "entry-description-25",
+        "text": "Entiende quién interviene antes y después de que una canción llegue al público. Recorre la evolución del sector y ubica a las empresas y profesionales en el proceso de un lanzamiento.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-25",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-industria-musical.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver La industria musical"
+      }
+    },
+    {
+      "id": "entry-25",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-25",
+          "entry-description-25",
+          "entry-link-25"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-26",
+      "type": "text",
+      "config": {
+        "id": "entry-title-26",
+        "text": "Hazlo tú mismo: gestión para artistas independientes",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-26",
+      "type": "text",
+      "config": {
+        "id": "entry-description-26",
+        "text": "Organiza las decisiones que acompañan a un proyecto musical independiente. Explora cómo coordinar la imagen, el trabajo de gestión y los recursos, e identifica las preguntas sobre autoría que conviene resolver al empezar.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-26",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-artista-independiente.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Hazlo tú mismo: gestión para artistas independientes"
+      }
+    },
+    {
+      "id": "entry-26",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-26",
+          "entry-description-26",
+          "entry-link-26"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-27",
+      "type": "text",
+      "config": {
+        "id": "entry-title-27",
+        "text": "Redes sociales y difusión para músicos",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-27",
+      "type": "text",
+      "config": {
+        "id": "entry-description-27",
+        "text": "Piensa cómo presentar tu música en internet y conversar con la gente que ya te escucha. Distingue la distribución de la difusión y elige acciones que tengan sentido para tu proyecto.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-27",
+      "type": "link",
+      "config": {
+        "text": "Ver la masterclass",
+        "href": "https://masterclass-redes-sociales-para-musicos.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Redes sociales y difusión para músicos"
+      }
+    },
+    {
+      "id": "entry-27",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-27",
+          "entry-description-27",
+          "entry-link-27"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-5",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-24",
+          "entry-25",
+          "entry-26",
+          "entry-27"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-5",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-5",
+          "group-items-5"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "directory-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "group-0",
+          "group-1",
+          "group-2",
+          "group-3",
+          "group-4",
+          "group-5"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)"
+        }
+      }
+    },
+    {
+      "id": "directory",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "directory-frame"
+        ],
+        "styles": {
+          "background": "#f7f3ea",
+          "color": "#141217"
+        },
+        "id": "catalogo",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "nav-cursos",
+      "type": "link",
+      "config": {
+        "text": "Cursos",
+        "href": "https://music.lynxpardelle.com/formacion/cursos",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "nav-masterclasses",
+      "type": "link",
+      "config": {
+        "text": "Masterclasses",
+        "href": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "underline"
+        },
+        "ariaCurrent": "page"
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "text": "Servicios",
+        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "brand-logo",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "38px",
+          "height": "38px",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "id": "brand-home",
+      "type": "link",
+      "config": {
+        "text": "LYNX PARDELLE",
+        "href": "https://music.lynxpardelle.com/formacion",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "800",
+          "letterSpacing": ".15em",
+          "textDecoration": "none",
+          "gap": "10px"
+        },
+        "components": [
+          "brand-logo"
+        ]
+      }
+    },
+    {
+      "id": "site-nav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "components": [
+          "nav-cursos",
+          "nav-masterclasses",
+          "nav-servicios"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px"
+        },
+        "ariaLabel": "Navegación principal"
+      }
+    },
+    {
+      "id": "site-header",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "components": [
+          "brand-home",
+          "site-nav"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "70px",
+          "justifyContent": "space-between",
+          "paddingBlock": "7px"
+        }
+      }
+    },
+    {
+      "id": "footer-brand",
+      "type": "text",
+      "config": {
+        "id": "footer-brand",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "730"
+        }
+      }
+    },
+    {
+      "id": "music-project",
+      "type": "link",
+      "config": {
+        "text": "Proyecto musical ↗",
+        "href": "https://music.lynxpardelle.com/",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-credit",
+      "type": "link",
+      "config": {
+        "text": "Sitio creado por ZooBeriah Systems",
+        "href": "https://zooberiahsystems.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-footer",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "components": [
+          "footer-brand",
+          "music-project",
+          "site-credit"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "85px",
+          "justifyContent": "space-between",
+          "borderTop": "1px solid #40383a"
+        }
+      }
+    },
+    {
+      "id": "main-content",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "components": [
+          "hero",
+          "directory"
+        ],
+        "styles": {},
+        "id": "contenido"
+      }
+    },
+    {
+      "id": "site-shell",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "site-header",
+          "main-content",
+          "site-footer"
+        ],
+        "styles": {
+          "background": "#141217",
+          "color": "#f7f3ea",
+          "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
+          "lineHeight": "1.6",
+          "minHeight": "100vh"
+        }
+      }
+    }
+  ]
+}
