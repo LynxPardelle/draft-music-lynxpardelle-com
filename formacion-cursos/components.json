@@ -14,12 +14,12 @@
           "margin": "0",
           "fontFamily": "\"Instrument Serif\", Georgia, serif",
           "fontWeight": "400",
-          "lineHeight": "1",
+          "lineHeight": ".97",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
+          "fontSize": "clamp(43px, 7.2vw, 93px)",
           "color": "#f7f3ea",
-          "marginBlock": "9px 16px",
+          "marginBlock": "8px 18px",
           "maxWidth": "17ch"
         }
       }
@@ -50,7 +50,7 @@
       "type": "text",
       "config": {
         "id": "hero-label",
-        "text": "Lynx Pardelle",
+        "text": "Formación de Lynx Pardelle",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -71,8 +71,8 @@
         "tag": "p",
         "styles": {
           "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
+          "maxWidth": "50ch",
+          "fontSize": "clamp(16px, 1.8vw, 20px)",
           "lineHeight": "1.58"
         }
       }
@@ -142,7 +142,7 @@
         "styles": {
           "position": "absolute",
           "inset": "0",
-          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
+          "background": "linear-gradient(90deg,#1e161bea,#1e161ba1 50%,#1e161b32),linear-gradient(0deg,#1e161bab,transparent 80%)"
         }
       }
     },
@@ -159,10 +159,10 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "paddingBlock": "clamp(41px, 6vw, 76px)",
           "display": "grid",
           "alignItems": "center",
-          "minHeight": "clamp(400px, 69svh, 620px)"
+          "minHeight": "clamp(300px, 43svh, 410px)"
         }
       }
     },
@@ -179,7 +179,7 @@
         "styles": {
           "position": "relative",
           "overflow": "hidden",
-          "borderBlock": "1px solid #665446"
+          "borderBlock": "1px solid #524044"
         }
       }
     },
@@ -197,7 +197,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -238,12 +238,14 @@
         "text": "Ver el curso",
         "href": "https://curso-musica-electronica.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Creación de música electrónica y diseño sonoro"
       }
@@ -259,8 +261,8 @@
           "entry-link-0"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -301,12 +303,14 @@
         "text": "Ver el curso",
         "href": "https://curso-diseno-sonoro.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Diseño sonoro digital"
       }
@@ -322,8 +326,8 @@
           "entry-link-1"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -364,12 +368,14 @@
         "text": "Ver el curso",
         "href": "https://curso-music-business.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Music Business para artistas independientes"
       }
@@ -385,8 +391,8 @@
           "entry-link-2"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -427,12 +433,14 @@
         "text": "Ver el curso",
         "href": "https://curso-produccion-audiovisual.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Producción audiovisual, edición y animación"
       }
@@ -448,8 +456,8 @@
           "entry-link-3"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -500,7 +508,7 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)"
+          "paddingBlock": "clamp(30px, 5.5vw, 67px)"
         }
       }
     },
@@ -513,48 +521,11 @@
           "directory-frame"
         ],
         "styles": {
-          "background": "#f7f3ea",
-          "color": "#141217"
+          "background": "#f5eee5",
+          "color": "#241c1c"
         },
         "id": "catalogo",
         "tabindex": -1
-      }
-    },
-    {
-      "id": "nav-formacion",
-      "type": "link",
-      "config": {
-        "text": "Formación",
-        "href": "/formacion",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "underline"
-        },
-        "ariaCurrent": "page"
-      }
-    },
-    {
-      "id": "nav-servicios",
-      "type": "link",
-      "config": {
-        "text": "Servicios",
-        "href": "/servicios",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "none"
-        }
       }
     },
     {
@@ -565,7 +536,7 @@
         "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
         "alt": "",
         "loading": "eager",
-        "fetchPriority": "high",
+        "fetchPriority": "auto",
         "decoding": "async",
         "styles": {
           "display": "block",
@@ -582,7 +553,7 @@
         "text": "LYNX PARDELLE",
         "href": "/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#f4bda3",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -604,13 +575,15 @@
         "tag": "nav",
         "components": [
           "nav-formacion",
+          "nav-cursos",
+          "nav-masterclasses",
           "nav-servicios"
         ],
         "styles": {
           "display": "flex",
           "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "2px 20px"
+          "gap": "0 14px"
         },
         "ariaLabel": "Navegación principal"
       }
@@ -632,10 +605,10 @@
           "display": "flex",
           "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "2px 20px",
-          "minHeight": "70px",
+          "gap": "0 20px",
+          "minHeight": "64px",
           "justifyContent": "space-between",
-          "paddingBlock": "7px"
+          "paddingBlock": "6px"
         }
       }
     },
@@ -738,6 +711,91 @@
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
           "minHeight": "100vh"
+        }
+      }
+    },
+    {
+      "id": "nav-formacion",
+      "type": "link",
+      "config": {
+        "id": "nav-formacion",
+        "text": "Formación",
+        "href": "/formacion",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-cursos",
+      "type": "link",
+      "config": {
+        "id": "nav-cursos",
+        "text": "Cursos",
+        "href": "/formacion/cursos",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#f4bda3",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "760",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        },
+        "ariaCurrent": "page"
+      }
+    },
+    {
+      "id": "nav-masterclasses",
+      "type": "link",
+      "config": {
+        "id": "nav-masterclasses",
+        "text": "Masterclasses",
+        "href": "/formacion/masterclasses",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "id": "nav-servicios",
+        "text": "Servicios",
+        "href": "/servicios",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
         }
       }
     }
