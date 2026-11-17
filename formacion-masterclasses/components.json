@@ -14,12 +14,12 @@
           "margin": "0",
           "fontFamily": "\"Instrument Serif\", Georgia, serif",
           "fontWeight": "400",
-          "lineHeight": "1",
+          "lineHeight": ".97",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
+          "fontSize": "clamp(43px, 7.2vw, 93px)",
           "color": "#f7f3ea",
-          "marginBlock": "9px 16px",
+          "marginBlock": "8px 18px",
           "maxWidth": "17ch"
         }
       }
@@ -50,7 +50,7 @@
       "type": "text",
       "config": {
         "id": "hero-label",
-        "text": "Lynx Pardelle",
+        "text": "Formación de Lynx Pardelle",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -71,8 +71,8 @@
         "tag": "p",
         "styles": {
           "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
+          "maxWidth": "50ch",
+          "fontSize": "clamp(16px, 1.8vw, 20px)",
           "lineHeight": "1.58"
         }
       }
@@ -142,7 +142,7 @@
         "styles": {
           "position": "absolute",
           "inset": "0",
-          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
+          "background": "linear-gradient(90deg,#1e161bea,#1e161ba1 50%,#1e161b32),linear-gradient(0deg,#1e161bab,transparent 80%)"
         }
       }
     },
@@ -159,10 +159,10 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "paddingBlock": "clamp(41px, 6vw, 76px)",
           "display": "grid",
           "alignItems": "center",
-          "minHeight": "clamp(400px, 69svh, 620px)"
+          "minHeight": "clamp(300px, 43svh, 410px)"
         }
       }
     },
@@ -179,7 +179,7 @@
         "styles": {
           "position": "relative",
           "overflow": "hidden",
-          "borderBlock": "1px solid #665446"
+          "borderBlock": "1px solid #524044"
         }
       }
     },
@@ -197,7 +197,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -238,12 +238,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-grabacion-de-voz-e-instrumentos.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Grabación de voz e instrumentos"
       }
@@ -259,8 +261,8 @@
           "entry-link-0"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -301,12 +303,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-loops-en-vivo.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Loops en vivo"
       }
@@ -322,8 +326,8 @@
           "entry-link-1"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -364,12 +368,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-procesos-de-audio-1.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Procesos de audio I: tiempo, dinámica y filtros"
       }
@@ -385,8 +391,8 @@
           "entry-link-2"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -427,12 +433,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-procesos-de-audio-2.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Procesos de audio II: modulación y utilidades"
       }
@@ -448,8 +456,8 @@
           "entry-link-3"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -483,8 +491,11 @@
           "group-items-0"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-audio",
+        "tabindex": -1
       }
     },
     {
@@ -501,7 +512,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -542,12 +553,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-instrumentos-y-efectos-midi.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Instrumentos y efectos MIDI"
       }
@@ -563,8 +576,8 @@
           "entry-link-4"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -605,12 +618,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-impulse.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Baterías con Impulse"
       }
@@ -626,8 +641,8 @@
           "entry-link-5"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -668,12 +683,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-drum-rack.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Baterías con Drum Rack"
       }
@@ -689,8 +706,8 @@
           "entry-link-6"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -731,12 +748,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-simpler.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Edición de muestras con Simpler"
       }
@@ -752,8 +771,8 @@
           "entry-link-7"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -794,12 +813,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-sampler.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Introducción a Sampler"
       }
@@ -815,8 +836,8 @@
           "entry-link-8"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -851,8 +872,11 @@
           "group-items-1"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-midi",
+        "tabindex": -1
       }
     },
     {
@@ -869,7 +893,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -910,12 +934,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-ritmo.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Ritmo y escritura para percusión"
       }
@@ -931,8 +957,8 @@
           "entry-link-9"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -973,12 +999,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-notas-musicales.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Notas musicales y lectura básica"
       }
@@ -994,8 +1022,8 @@
           "entry-link-10"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1036,12 +1064,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-intervalos.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Intervalos melódicos y armónicos"
       }
@@ -1057,8 +1087,8 @@
           "entry-link-11"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1099,12 +1129,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-acordes.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Acordes: tríadas, séptimas y extensiones"
       }
@@ -1120,8 +1152,8 @@
           "entry-link-12"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1162,12 +1194,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-escalas-mayores.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Escalas I: escala mayor y armonización"
       }
@@ -1183,8 +1217,8 @@
           "entry-link-13"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1225,12 +1259,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-escalas-menores.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Escalas II: escalas menores"
       }
@@ -1246,8 +1282,8 @@
           "entry-link-14"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1283,8 +1319,11 @@
           "group-items-2"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-teoria-musical",
+        "tabindex": -1
       }
     },
     {
@@ -1301,7 +1340,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -1342,12 +1381,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-estructura-musical.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Estructura y arreglo musical"
       }
@@ -1363,8 +1404,8 @@
           "entry-link-15"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1405,12 +1446,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-mezcla-digital.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Mezcla digital"
       }
@@ -1426,8 +1469,8 @@
           "entry-link-16"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1468,12 +1511,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-masterizacion-profesional.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Masterización musical"
       }
@@ -1489,8 +1534,8 @@
           "entry-link-17"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1531,12 +1576,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-ruteo-y-grupos.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Ruteo avanzado y grupos de audio y MIDI"
       }
@@ -1552,8 +1599,8 @@
           "entry-link-18"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1587,8 +1634,11 @@
           "group-items-3"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-produccion",
+        "tabindex": -1
       }
     },
     {
@@ -1605,7 +1655,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -1646,12 +1696,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Síntesis aditiva, sustractiva y FM"
       }
@@ -1667,8 +1719,8 @@
           "entry-link-19"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1709,12 +1761,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-sintesis-de-tabla-de-ondas.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Síntesis de tabla de ondas"
       }
@@ -1730,8 +1784,8 @@
           "entry-link-20"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1772,12 +1826,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Síntesis por modelado físico"
       }
@@ -1793,8 +1849,8 @@
           "entry-link-21"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1835,12 +1891,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Síntesis orgánica y granular"
       }
@@ -1856,8 +1914,8 @@
           "entry-link-22"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1898,12 +1956,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-edicion-del-sonido.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Edición y transformación del sonido"
       }
@@ -1919,8 +1979,8 @@
           "entry-link-23"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1955,8 +2015,11 @@
           "group-items-4"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-diseno-sonoro",
+        "tabindex": -1
       }
     },
     {
@@ -1973,7 +2036,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -2014,12 +2077,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-profesionaliza-tu-proyecto-musical.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Profesionaliza tu proyecto musical"
       }
@@ -2035,8 +2100,8 @@
           "entry-link-24"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -2077,12 +2142,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-industria-musical.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver La industria musical"
       }
@@ -2098,8 +2165,8 @@
           "entry-link-25"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -2140,12 +2207,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-artista-independiente.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Hazlo tú mismo: gestión para artistas independientes"
       }
@@ -2161,8 +2230,8 @@
           "entry-link-26"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -2203,12 +2272,14 @@
         "text": "Ver la masterclass",
         "href": "https://masterclass-redes-sociales-para-musicos.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Redes sociales y difusión para músicos"
       }
@@ -2224,8 +2295,8 @@
           "entry-link-27"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -2259,8 +2330,11 @@
           "group-items-5"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-music-business",
+        "tabindex": -1
       }
     },
     {
@@ -2269,6 +2343,7 @@
       "config": {
         "tag": "div",
         "components": [
+          "topic-index",
           "group-0",
           "group-1",
           "group-2",
@@ -2281,7 +2356,7 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)"
+          "paddingBlock": "clamp(30px, 5.5vw, 67px)"
         }
       }
     },
@@ -2294,47 +2369,11 @@
           "directory-frame"
         ],
         "styles": {
-          "background": "#f7f3ea",
-          "color": "#141217"
+          "background": "#f5eee5",
+          "color": "#241c1c"
         },
         "id": "catalogo",
         "tabindex": -1
-      }
-    },
-    {
-      "id": "nav-formacion",
-      "type": "link",
-      "config": {
-        "text": "Formación",
-        "href": "/formacion",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "none"
-        }
-      }
-    },
-    {
-      "id": "nav-servicios",
-      "type": "link",
-      "config": {
-        "text": "Servicios",
-        "href": "/servicios",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "none"
-        }
       }
     },
     {
@@ -2345,7 +2384,7 @@
         "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
         "alt": "",
         "loading": "eager",
-        "fetchPriority": "high",
+        "fetchPriority": "auto",
         "decoding": "async",
         "styles": {
           "display": "block",
@@ -2362,7 +2401,7 @@
         "text": "LYNX PARDELLE",
         "href": "/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#f4bda3",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -2384,13 +2423,15 @@
         "tag": "nav",
         "components": [
           "nav-formacion",
+          "nav-cursos",
+          "nav-masterclasses",
           "nav-servicios"
         ],
         "styles": {
           "display": "flex",
           "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "2px 20px"
+          "gap": "0 14px"
         },
         "ariaLabel": "Navegación principal"
       }
@@ -2412,10 +2453,10 @@
           "display": "flex",
           "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "2px 20px",
-          "minHeight": "70px",
+          "gap": "0 20px",
+          "minHeight": "64px",
           "justifyContent": "space-between",
-          "paddingBlock": "7px"
+          "paddingBlock": "6px"
         }
       }
     },
@@ -2519,6 +2560,242 @@
           "lineHeight": "1.6",
           "minHeight": "100vh"
         }
+      }
+    },
+    {
+      "id": "nav-formacion",
+      "type": "link",
+      "config": {
+        "id": "nav-formacion",
+        "text": "Formación",
+        "href": "/formacion",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-cursos",
+      "type": "link",
+      "config": {
+        "id": "nav-cursos",
+        "text": "Cursos",
+        "href": "/formacion/cursos",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-masterclasses",
+      "type": "link",
+      "config": {
+        "id": "nav-masterclasses",
+        "text": "Masterclasses",
+        "href": "/formacion/masterclasses",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#f4bda3",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "760",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        },
+        "ariaCurrent": "page"
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "id": "nav-servicios",
+        "text": "Servicios",
+        "href": "/servicios",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-audio",
+      "type": "link",
+      "config": {
+        "id": "jump-audio",
+        "text": "Audio",
+        "href": "#tema-audio",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-midi",
+      "type": "link",
+      "config": {
+        "id": "jump-midi",
+        "text": "MIDI",
+        "href": "#tema-midi",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-teoria-musical",
+      "type": "link",
+      "config": {
+        "id": "jump-teoria-musical",
+        "text": "Teoría musical",
+        "href": "#tema-teoria-musical",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-produccion",
+      "type": "link",
+      "config": {
+        "id": "jump-produccion",
+        "text": "Producción y posproducción",
+        "href": "#tema-produccion",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-diseno-sonoro",
+      "type": "link",
+      "config": {
+        "id": "jump-diseno-sonoro",
+        "text": "Diseño sonoro",
+        "href": "#tema-diseno-sonoro",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-music-business",
+      "type": "link",
+      "config": {
+        "id": "jump-music-business",
+        "text": "Music Business",
+        "href": "#tema-music-business",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "topic-index",
+      "type": "container",
+      "config": {
+        "id": "topic-index",
+        "tag": "nav",
+        "components": [
+          "jump-audio",
+          "jump-midi",
+          "jump-teoria-musical",
+          "jump-produccion",
+          "jump-diseno-sonoro",
+          "jump-music-business"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "columnGap": "clamp(12px, 3vw, 32px)",
+          "paddingBlock": "3px",
+          "borderBlock": "1px solid #d9cdbf",
+          "marginBlockEnd": "clamp(24px, 5vw, 58px)"
+        },
+        "ariaLabel": "Temas de masterclasses"
       }
     }
   ]

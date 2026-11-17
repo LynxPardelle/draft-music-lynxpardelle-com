@@ -14,12 +14,12 @@
           "margin": "0",
           "fontFamily": "\"Instrument Serif\", Georgia, serif",
           "fontWeight": "400",
-          "lineHeight": "1",
+          "lineHeight": ".97",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
+          "fontSize": "clamp(43px, 7.2vw, 93px)",
           "color": "#f7f3ea",
-          "marginBlock": "9px 16px",
+          "marginBlock": "8px 18px",
           "maxWidth": "17ch"
         }
       }
@@ -71,8 +71,8 @@
         "tag": "p",
         "styles": {
           "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
+          "maxWidth": "50ch",
+          "fontSize": "clamp(16px, 1.8vw, 20px)",
           "lineHeight": "1.58"
         }
       }
@@ -142,7 +142,7 @@
         "styles": {
           "position": "absolute",
           "inset": "0",
-          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
+          "background": "linear-gradient(90deg,#1e161bea,#1e161ba1 50%,#1e161b32),linear-gradient(0deg,#1e161bab,transparent 80%)"
         }
       }
     },
@@ -159,10 +159,10 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "paddingBlock": "clamp(41px, 6vw, 76px)",
           "display": "grid",
           "alignItems": "center",
-          "minHeight": "clamp(400px, 69svh, 620px)"
+          "minHeight": "clamp(300px, 43svh, 410px)"
         }
       }
     },
@@ -179,7 +179,7 @@
         "styles": {
           "position": "relative",
           "overflow": "hidden",
-          "borderBlock": "1px solid #665446"
+          "borderBlock": "1px solid #524044"
         }
       }
     },
@@ -197,7 +197,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -238,12 +238,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-asesorias.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Asesorías creativas y técnicas"
       }
@@ -259,8 +261,8 @@
           "entry-link-0"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -301,12 +303,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-clases-personalizadas.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Clases personalizadas"
       }
@@ -322,8 +326,8 @@
           "entry-link-1"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -355,8 +359,11 @@
           "group-items-0"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-asesoria-y-clases",
+        "tabindex": -1
       }
     },
     {
@@ -373,7 +380,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -414,12 +421,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-mezcla.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Mezcla musical"
       }
@@ -435,8 +444,8 @@
           "entry-link-2"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -477,12 +486,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-masterizacion.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Masterización musical"
       }
@@ -498,8 +509,8 @@
           "entry-link-3"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -540,12 +551,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-soundtracks.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Música original para cine y animación"
       }
@@ -561,8 +574,8 @@
           "entry-link-4"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -603,12 +616,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-jingles.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Jingles y música para publicidad"
       }
@@ -624,8 +639,8 @@
           "entry-link-5"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -659,8 +674,11 @@
           "group-items-1"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-audio",
+        "tabindex": -1
       }
     },
     {
@@ -677,7 +695,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -718,12 +736,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-animaciones.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Animación y gráficos en movimiento"
       }
@@ -739,8 +759,8 @@
           "entry-link-6"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -781,12 +801,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-videoclips.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Videoclips musicales"
       }
@@ -802,8 +824,8 @@
           "entry-link-7"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -844,12 +866,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-logos.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Diseño de logotipos"
       }
@@ -865,8 +889,8 @@
           "entry-link-8"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -907,12 +931,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-portadas-musicales.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Portadas para sencillos y álbumes"
       }
@@ -928,8 +954,8 @@
           "entry-link-9"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -963,8 +989,11 @@
           "group-items-2"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-audiovisual-y-diseno",
+        "tabindex": -1
       }
     },
     {
@@ -981,7 +1010,7 @@
           "lineHeight": "1",
           "letterSpacing": "-.04em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
+          "fontSize": "clamp(32px, 5vw, 57px)",
           "marginBottom": "20px"
         }
       }
@@ -1022,12 +1051,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-sitios-web.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Sitios web para músicos y bandas"
       }
@@ -1043,8 +1074,8 @@
           "entry-link-10"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1085,12 +1116,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-landing-pages.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Landing pages para lanzamientos musicales"
       }
@@ -1106,8 +1139,8 @@
           "entry-link-11"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1148,12 +1181,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-flyers-digitales.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Flyers digitales para músicos y eventos"
       }
@@ -1169,8 +1204,8 @@
           "entry-link-12"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1211,12 +1246,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-presskits-online.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Kits de prensa para artistas"
       }
@@ -1232,8 +1269,8 @@
           "entry-link-13"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1274,12 +1311,14 @@
         "text": "Ver el servicio",
         "href": "https://servicio-portafolios-online.music.lynxpardelle.com/",
         "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
+          "color": "#792c3c",
+          "textUnderlineOffset": "5px",
           "minHeight": "44px",
           "display": "inline-flex",
           "alignItems": "center",
-          "fontWeight": "640"
+          "fontWeight": "640",
+          "textDecoration": "underline",
+          "outlineOffset": "3px"
         },
         "ariaLabel": "Ver Portafolios de diseño en línea"
       }
@@ -1295,8 +1334,8 @@
           "entry-link-14"
         ],
         "styles": {
-          "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3",
+          "paddingBlock": "16px 9px",
+          "borderTop": "1px solid #d9cdbf",
           "minWidth": "0"
         }
       }
@@ -1331,8 +1370,11 @@
           "group-items-3"
         ],
         "styles": {
-          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
-        }
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)",
+          "scrollMarginTop": "32px"
+        },
+        "id": "tema-web",
+        "tabindex": -1
       }
     },
     {
@@ -1341,6 +1383,7 @@
       "config": {
         "tag": "div",
         "components": [
+          "topic-index",
           "group-0",
           "group-1",
           "group-2",
@@ -1351,7 +1394,7 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)"
+          "paddingBlock": "clamp(30px, 5.5vw, 67px)"
         }
       }
     },
@@ -1364,48 +1407,11 @@
           "directory-frame"
         ],
         "styles": {
-          "background": "#f7f3ea",
-          "color": "#141217"
+          "background": "#f5eee5",
+          "color": "#241c1c"
         },
         "id": "catalogo",
         "tabindex": -1
-      }
-    },
-    {
-      "id": "nav-formacion",
-      "type": "link",
-      "config": {
-        "text": "Formación",
-        "href": "/formacion",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "none"
-        }
-      }
-    },
-    {
-      "id": "nav-servicios",
-      "type": "link",
-      "config": {
-        "text": "Servicios",
-        "href": "/servicios",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "underline"
-        },
-        "ariaCurrent": "page"
       }
     },
     {
@@ -1416,7 +1422,7 @@
         "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
         "alt": "",
         "loading": "eager",
-        "fetchPriority": "high",
+        "fetchPriority": "auto",
         "decoding": "async",
         "styles": {
           "display": "block",
@@ -1433,7 +1439,7 @@
         "text": "LYNX PARDELLE",
         "href": "/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#f4bda3",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -1455,13 +1461,15 @@
         "tag": "nav",
         "components": [
           "nav-formacion",
+          "nav-cursos",
+          "nav-masterclasses",
           "nav-servicios"
         ],
         "styles": {
           "display": "flex",
           "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "2px 20px"
+          "gap": "0 14px"
         },
         "ariaLabel": "Navegación principal"
       }
@@ -1483,10 +1491,10 @@
           "display": "flex",
           "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "2px 20px",
-          "minHeight": "70px",
+          "gap": "0 20px",
+          "minHeight": "64px",
           "justifyContent": "space-between",
-          "paddingBlock": "7px"
+          "paddingBlock": "6px"
         }
       }
     },
@@ -1590,6 +1598,198 @@
           "lineHeight": "1.6",
           "minHeight": "100vh"
         }
+      }
+    },
+    {
+      "id": "nav-formacion",
+      "type": "link",
+      "config": {
+        "id": "nav-formacion",
+        "text": "Formación",
+        "href": "/formacion",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-cursos",
+      "type": "link",
+      "config": {
+        "id": "nav-cursos",
+        "text": "Cursos",
+        "href": "/formacion/cursos",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-masterclasses",
+      "type": "link",
+      "config": {
+        "id": "nav-masterclasses",
+        "text": "Masterclasses",
+        "href": "/formacion/masterclasses",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "inherit",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "630",
+          "textDecoration": "none",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "id": "nav-servicios",
+        "text": "Servicios",
+        "href": "/servicios",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#f4bda3",
+          "fontSize": "clamp(12px, 1.55vw, 14px)",
+          "fontWeight": "760",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        },
+        "ariaCurrent": "page"
+      }
+    },
+    {
+      "id": "jump-asesoria-y-clases",
+      "type": "link",
+      "config": {
+        "id": "jump-asesoria-y-clases",
+        "text": "Asesoría y clases",
+        "href": "#tema-asesoria-y-clases",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-audio",
+      "type": "link",
+      "config": {
+        "id": "jump-audio",
+        "text": "Audio",
+        "href": "#tema-audio",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-audiovisual-y-diseno",
+      "type": "link",
+      "config": {
+        "id": "jump-audiovisual-y-diseno",
+        "text": "Audiovisual y diseño",
+        "href": "#tema-audiovisual-y-diseno",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "jump-web",
+      "type": "link",
+      "config": {
+        "id": "jump-web",
+        "text": "Web",
+        "href": "#tema-web",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#583038",
+          "fontSize": ".94rem",
+          "fontWeight": "720",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "topic-index",
+      "type": "container",
+      "config": {
+        "id": "topic-index",
+        "tag": "nav",
+        "components": [
+          "jump-asesoria-y-clases",
+          "jump-audio",
+          "jump-audiovisual-y-diseno",
+          "jump-web"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "columnGap": "clamp(12px, 3vw, 32px)",
+          "paddingBlock": "3px",
+          "borderBlock": "1px solid #d9cdbf",
+          "marginBlockEnd": "clamp(24px, 5vw, 58px)"
+        },
+        "ariaLabel": "Tipos de servicio"
       }
     }
   ]

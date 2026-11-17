@@ -42,7 +42,7 @@
       "tracks": "Songs"
     },
     "hero": {
-      "tagline": "Offizielles Signal / experimenteller elektronischer Rock.",
+      "tagline": "Experimenteller elektronischer Rock",
       "title": "Lynx Pardelle",
       "subtitle": "Druck, Textur und Nachhall fuer naechtliche Hoerer.",
       "description": "Ein dichter, immersiver Katalog, in dem verzerrte Kanten, melodische Zurueckhaltung und visuelle Identitaet als ein System arbeiten.",
@@ -72,7 +72,10 @@
       "catalog": {
         "label": "Weiterbildung und Leistungen",
         "training": "Weiterbildung",
-        "services": "Leistungen"
+        "services": "Leistungen",
+        "courses": "Kurse",
+        "masterclasses": "Masterclasses",
+        "servicesCopy": "Audio, audiovisuelle Produktion, Design und Web."
       }
     },
     "featuresSection": {
@@ -136,9 +139,8 @@
       "subtitle": "Verschiedene Einstiegspunkte für verschiedene Hörgewohnheiten."
     },
     "runtimeApiSection": {
-      "title": "Songs in Bewegung",
-      "subtitle": "Die Liste aktualisiert sich aus dem konfigurierten Feed und behaelt lokale Fallback-Daten, falls die Quelle laenger braucht.",
-      "statusLabel": "Aktualisiert aus iTunes Search ueber den API-Proxy"
+      "title": "Songs",
+      "subtitle": "Höre Songs von Lynx Pardelle und öffne sie auf deiner Plattform."
     },
     "tidalAlbumsSection": {
       "title": "Alben auf TIDAL",
