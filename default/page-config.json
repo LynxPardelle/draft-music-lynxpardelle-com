@@ -17,52 +17,125 @@
     "status": "draft_generated",
     "source": "assistant-generated from approved questionnaire",
     "versionTag": "v1.0.0",
-    "owner": "Lynx Pardelle"
+    "owner": "Lynx Pardelle",
+    "lastModified": "2026-11-16"
   },
   "seo": {
-    "title": "Lynx Pardelle | Experimental Electronic Rock",
-    "description": "Enter the Lynx Pardelle signal: tense, cinematic experimental electronic rock with a sharp visual identity. Follow on Spotify and Tidal for new releases and updates.",
+    "title": {
+      "es": "Lynx Pardelle | Rock electrónico experimental",
+      "en": "Lynx Pardelle | Experimental Electronic Rock",
+      "fr": "Lynx Pardelle | Rock électronique expérimental",
+      "de": "Lynx Pardelle | Experimenteller elektronischer Rock"
+    },
+    "description": {
+      "es": "Escucha el proyecto de rock electrónico experimental de Alec Jonathan Montaño Romero y explora sus cursos y servicios de audio, audiovisual y web.",
+      "en": "Listen to Alec Jonathan Montaño Romero’s experimental electronic rock and explore his courses, audio production, audiovisual and web services.",
+      "fr": "Découvrez le rock électronique expérimental d’Alec Jonathan Montaño Romero, ses cours et ses services de production audio, audiovisuelle et web.",
+      "de": "Höre den experimentellen elektronischen Rock von Alec Jonathan Montaño Romero und entdecke seine Kurse sowie Audio-, Video- und Webangebote."
+    },
+    "canonical": {
+      "es": "https://music.lynxpardelle.com/",
+      "en": "https://music.lynxpardelle.com/?lang=en",
+      "fr": "https://music.lynxpardelle.com/?lang=fr",
+      "de": "https://music.lynxpardelle.com/?lang=de"
+    },
     "openGraph": {
-      "title": "Lynx Pardelle | Experimental Electronic Rock",
-      "description": "Enter the Lynx Pardelle signal: tense, cinematic experimental electronic rock with a sharp visual identity. Follow on Spotify and Tidal for new releases and updates.",
-      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
-      "url": "https://music.lynxpardelle.com",
-      "type": "website"
+      "es": {
+        "title": "Lynx Pardelle | Rock electrónico experimental",
+        "description": "Escucha el proyecto de rock electrónico experimental de Alec Jonathan Montaño Romero y explora sus cursos y servicios de audio, audiovisual y web.",
+        "url": "https://music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "type": "website"
+      },
+      "en": {
+        "title": "Lynx Pardelle | Experimental Electronic Rock",
+        "description": "Listen to Alec Jonathan Montaño Romero’s experimental electronic rock and explore his courses, audio production, audiovisual and web services.",
+        "url": "https://music.lynxpardelle.com/?lang=en",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "type": "website"
+      },
+      "fr": {
+        "title": "Lynx Pardelle | Rock électronique expérimental",
+        "description": "Découvrez le rock électronique expérimental d’Alec Jonathan Montaño Romero, ses cours et ses services de production audio, audiovisuelle et web.",
+        "url": "https://music.lynxpardelle.com/?lang=fr",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "type": "website"
+      },
+      "de": {
+        "title": "Lynx Pardelle | Experimenteller elektronischer Rock",
+        "description": "Höre den experimentellen elektronischen Rock von Alec Jonathan Montaño Romero und entdecke seine Kurse sowie Audio-, Video- und Webangebote.",
+        "url": "https://music.lynxpardelle.com/?lang=de",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "type": "website"
+      }
     },
     "twitter": {
-      "title": "Lynx Pardelle | Experimental Electronic Rock",
-      "description": "Enter the Lynx Pardelle signal: tense, cinematic experimental electronic rock with a sharp visual identity. Follow on Spotify and Tidal for new releases and updates.",
-      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
-      "card": "summary_large_image"
+      "es": {
+        "title": "Lynx Pardelle | Rock electrónico experimental",
+        "description": "Escucha el proyecto de rock electrónico experimental de Alec Jonathan Montaño Romero y explora sus cursos y servicios de audio, audiovisual y web.",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "card": "summary_large_image"
+      },
+      "en": {
+        "title": "Lynx Pardelle | Experimental Electronic Rock",
+        "description": "Listen to Alec Jonathan Montaño Romero’s experimental electronic rock and explore his courses, audio production, audiovisual and web services.",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "card": "summary_large_image"
+      },
+      "fr": {
+        "title": "Lynx Pardelle | Rock électronique expérimental",
+        "description": "Découvrez le rock électronique expérimental d’Alec Jonathan Montaño Romero, ses cours et ses services de production audio, audiovisuelle et web.",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "card": "summary_large_image"
+      },
+      "de": {
+        "title": "Lynx Pardelle | Experimenteller elektronischer Rock",
+        "description": "Höre den experimentellen elektronischen Rock von Alec Jonathan Montaño Romero und entdecke seine Kurse sowie Audio-, Video- und Webangebote.",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "card": "summary_large_image"
+      }
     },
-    "canonical": "https://music.lynxpardelle.com"
+    "robots": "index,follow,max-image-preview:large"
   },
   "structuredData": {
     "entries": [
       {
         "@context": "https://schema.org",
-        "@type": "MusicGroup",
+        "@type": "WebSite",
+        "@id": "https://music.lynxpardelle.com/#website",
+        "url": "https://music.lynxpardelle.com/",
         "name": "Lynx Pardelle",
-        "url": "https://music.lynxpardelle.com",
-        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
-        "description": "Genre-defying artist blending electronic music with rock and dark immersive atmospheres.",
-        "sameAs": [
-          "https://open.spotify.com/intl-es/artist/0BJZMxkwimGbieNAvoAH0W",
-          "https://tidal.com/artist/10212180",
-          "https://www.facebook.com/LynxPardelle",
-          "https://www.instagram.com/lynxpardelle/"
-        ]
+        "inLanguage": [
+          "es",
+          "en",
+          "fr",
+          "de"
+        ],
+        "publisher": {
+          "@id": "https://lynxpardelle.com/#person"
+        }
       },
       {
         "@context": "https://schema.org",
-        "@type": "MusicAlbum",
-        "name": "Lynx Pardelle Selected Works",
-        "byArtist": {
-          "@type": "MusicGroup",
-          "name": "Lynx Pardelle"
-        },
-        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
-        "url": "https://music.lynxpardelle.com"
+        "@type": "ProfilePage",
+        "@id": "https://music.lynxpardelle.com/#profile",
+        "url": "https://music.lynxpardelle.com/",
+        "name": "Lynx Pardelle",
+        "mainEntity": {
+          "@id": "https://lynxpardelle.com/#person"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://lynxpardelle.com/#person",
+        "name": "Alec Jonathan Montaño Romero",
+        "alternateName": "Lynx Pardelle",
+        "url": "https://lynxpardelle.com/",
+        "sameAs": [
+          "https://open.spotify.com/intl-es/artist/0BJZMxkwimGbieNAvoAH0W",
+          "https://tidal.com/artist/10212180"
+        ]
       }
     ]
   },

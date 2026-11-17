@@ -7,12 +7,218 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Masterclasses | Lynx Pardelle",
-    "description": "Sesiones centradas en audio, MIDI, teoría, producción, síntesis y negocio musical.",
+    "title": "Masterclasses de música, audio y producción | Lynx Pardelle",
+    "description": "Explora 28 masterclasses de grabación, mezcla, MIDI, síntesis, teoría musical y negocio musical. Consulta los temarios y la promoción 2×1.",
     "canonical": "https://music.lynxpardelle.com/formacion/masterclasses",
-    "robots": "index,follow",
+    "robots": "index,follow,max-image-preview:large",
     "openGraph": {
-      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-grabacion-voz.webp"
+      "title": "Masterclasses de música, audio y producción | Lynx Pardelle",
+      "description": "Explora 28 masterclasses de grabación, mezcla, MIDI, síntesis, teoría musical y negocio musical. Consulta los temarios y la promoción 2×1.",
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-grabacion-voz.webp",
+      "url": "https://music.lynxpardelle.com/formacion/masterclasses",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Masterclasses de música, audio y producción | Lynx Pardelle",
+      "description": "Explora 28 masterclasses de grabación, mezcla, MIDI, síntesis, teoría musical y negocio musical. Consulta los temarios y la promoción 2×1.",
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-grabacion-voz.webp",
+      "card": "summary_large_image"
     }
+  },
+  "metadata": {
+    "lastModified": "2026-11-16"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://music.lynxpardelle.com/formacion/masterclasses#collection",
+        "url": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "name": "Masterclasses de música, audio y producción",
+        "description": "Explora 28 masterclasses de grabación, mezcla, MIDI, síntesis, teoría musical y negocio musical. Consulta los temarios y la promoción 2×1.",
+        "inLanguage": "es",
+        "publisher": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "isPartOf": {
+          "@id": "https://music.lynxpardelle.com/#website"
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "numberOfItems": 28,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "url": "https://masterclass-grabacion-de-voz-e-instrumentos.music.lynxpardelle.com/",
+              "name": "Grabación de voz e instrumentos"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "url": "https://masterclass-loops-en-vivo.music.lynxpardelle.com/",
+              "name": "Loops en vivo"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "url": "https://masterclass-procesos-de-audio-1.music.lynxpardelle.com/",
+              "name": "Procesos de audio I: tiempo, dinámica y filtros"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "url": "https://masterclass-procesos-de-audio-2.music.lynxpardelle.com/",
+              "name": "Procesos de audio II: modulación y utilidades"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "url": "https://masterclass-instrumentos-y-efectos-midi.music.lynxpardelle.com/",
+              "name": "Instrumentos y efectos MIDI"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "url": "https://masterclass-impulse.music.lynxpardelle.com/",
+              "name": "Baterías con Impulse"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "url": "https://masterclass-drum-rack.music.lynxpardelle.com/",
+              "name": "Baterías con Drum Rack"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "url": "https://masterclass-simpler.music.lynxpardelle.com/",
+              "name": "Edición de muestras con Simpler"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "url": "https://masterclass-sampler.music.lynxpardelle.com/",
+              "name": "Introducción a Sampler"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "url": "https://masterclass-ritmo.music.lynxpardelle.com/",
+              "name": "Ritmo y escritura para percusión"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "url": "https://masterclass-notas-musicales.music.lynxpardelle.com/",
+              "name": "Notas musicales y lectura básica"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "url": "https://masterclass-intervalos.music.lynxpardelle.com/",
+              "name": "Intervalos melódicos y armónicos"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "url": "https://masterclass-acordes.music.lynxpardelle.com/",
+              "name": "Acordes: tríadas, séptimas y extensiones"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "url": "https://masterclass-escalas-mayores.music.lynxpardelle.com/",
+              "name": "Escalas I: escala mayor y armonización"
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "url": "https://masterclass-escalas-menores.music.lynxpardelle.com/",
+              "name": "Escalas II: escalas menores"
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "url": "https://masterclass-estructura-musical.music.lynxpardelle.com/",
+              "name": "Estructura y arreglo musical"
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "url": "https://masterclass-mezcla-digital.music.lynxpardelle.com/",
+              "name": "Mezcla digital"
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "url": "https://masterclass-masterizacion-profesional.music.lynxpardelle.com/",
+              "name": "Masterización musical"
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "url": "https://masterclass-ruteo-y-grupos.music.lynxpardelle.com/",
+              "name": "Ruteo avanzado y grupos de audio y MIDI"
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "url": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
+              "name": "Síntesis aditiva, sustractiva y FM"
+            },
+            {
+              "@type": "ListItem",
+              "position": 21,
+              "url": "https://masterclass-sintesis-de-tabla-de-ondas.music.lynxpardelle.com/",
+              "name": "Síntesis de tabla de ondas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 22,
+              "url": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
+              "name": "Síntesis por modelado físico"
+            },
+            {
+              "@type": "ListItem",
+              "position": 23,
+              "url": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
+              "name": "Síntesis orgánica y granular"
+            },
+            {
+              "@type": "ListItem",
+              "position": 24,
+              "url": "https://masterclass-edicion-del-sonido.music.lynxpardelle.com/",
+              "name": "Edición y transformación del sonido"
+            },
+            {
+              "@type": "ListItem",
+              "position": 25,
+              "url": "https://masterclass-profesionaliza-tu-proyecto-musical.music.lynxpardelle.com/",
+              "name": "Profesionaliza tu proyecto musical"
+            },
+            {
+              "@type": "ListItem",
+              "position": 26,
+              "url": "https://masterclass-industria-musical.music.lynxpardelle.com/",
+              "name": "La industria musical"
+            },
+            {
+              "@type": "ListItem",
+              "position": 27,
+              "url": "https://masterclass-artista-independiente.music.lynxpardelle.com/",
+              "name": "Hazlo tú mismo: gestión para artistas independientes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 28,
+              "url": "https://masterclass-redes-sociales-para-musicos.music.lynxpardelle.com/",
+              "name": "Redes sociales y difusión para músicos"
+            }
+          ]
+        }
+      }
+    ]
   }
 }

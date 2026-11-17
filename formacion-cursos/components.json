@@ -689,6 +689,7 @@
         "tag": "main",
         "components": [
           "hero",
+          "portfolio-links",
           "directory"
         ],
         "styles": {},
@@ -796,6 +797,71 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "portfolio-links",
+      "type": "container",
+      "config": {
+        "id": "portfolio-links",
+        "tag": "nav",
+        "ariaLabel": "Portafolio de Lynx Pardelle",
+        "components": [
+          "portfolio-link-0",
+          "portfolio-link-1"
+        ],
+        "styles": {
+          "width": "min(100%, 1360px)",
+          "marginInline": "auto",
+          "boxSizing": "border-box",
+          "padding": "12px clamp(22px, 6vw, 88px)",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "5px 26px",
+          "background": "#f5eee5"
+        }
+      }
+    },
+    {
+      "id": "portfolio-link-0",
+      "type": "link",
+      "config": {
+        "id": "portfolio-link-0",
+        "text": "Música y proyectos de audio",
+        "href": "https://lynxpardelle.com/music",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "portfolio-link-1",
+      "type": "link",
+      "config": {
+        "id": "portfolio-link-1",
+        "text": "Portafolio audiovisual",
+        "href": "https://lynxpardelle.com/reel",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
         }
       }
     }

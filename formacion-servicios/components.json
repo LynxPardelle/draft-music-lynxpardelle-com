@@ -671,6 +671,7 @@
         "tag": "section",
         "components": [
           "group-title-1",
+          "portfolio-link-0",
           "group-items-1"
         ],
         "styles": {
@@ -986,6 +987,8 @@
         "tag": "section",
         "components": [
           "group-title-2",
+          "portfolio-link-1",
+          "portfolio-link-2",
           "group-items-2"
         ],
         "styles": {
@@ -1367,6 +1370,7 @@
         "tag": "section",
         "components": [
           "group-title-3",
+          "portfolio-link-3",
           "group-items-3"
         ],
         "styles": {
@@ -1790,6 +1794,90 @@
           "marginBlockEnd": "clamp(24px, 5vw, 58px)"
         },
         "ariaLabel": "Tipos de servicio"
+      }
+    },
+    {
+      "id": "portfolio-link-0",
+      "type": "link",
+      "config": {
+        "id": "portfolio-link-0",
+        "text": "Proyectos musicales y de audio",
+        "href": "https://lynxpardelle.com/music",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "portfolio-link-1",
+      "type": "link",
+      "config": {
+        "id": "portfolio-link-1",
+        "text": "Proyectos audiovisuales",
+        "href": "https://lynxpardelle.com/reel",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "portfolio-link-2",
+      "type": "link",
+      "config": {
+        "id": "portfolio-link-2",
+        "text": "Portafolio de diseño",
+        "href": "https://lynxpardelle.com/book",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "portfolio-link-3",
+      "type": "link",
+      "config": {
+        "id": "portfolio-link-3",
+        "text": "Proyectos de desarrollo web",
+        "href": "https://lynxpardelle.com/webs",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
       }
     }
   ]
