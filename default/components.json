@@ -311,6 +311,7 @@
           "heroDescription",
           "heroSupportNote",
           "heroCtas",
+          "heroCatalogNav",
           "heroBadgesLabel",
           "heroBadgesList"
         ]
@@ -390,7 +391,13 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkPrimary"
+        "classes": "ctaLinkPrimary",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
       }
     },
     {
@@ -405,7 +412,59 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkSecondary"
+        "classes": "ctaLinkSecondary",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "heroCatalogNav",
+      "type": "container",
+      "valueInstructions": "set:config.ariaLabel,i18n,hero.catalog.label",
+      "config": {
+        "tag": "nav",
+        "ariaLabel": "Formación y servicios",
+        "classes": "ank-display-flex ank-gap-10px ank-flexWrap-wrap",
+        "components": [
+          "heroTrainingLink",
+          "heroServicesLink"
+        ]
+      }
+    },
+    {
+      "id": "heroTrainingLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.training",
+      "config": {
+        "href": "/formacion",
+        "text": "Formación",
+        "classes": "musicGhostButton",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "heroServicesLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.services",
+      "config": {
+        "href": "/servicios",
+        "text": "Servicios",
+        "classes": "musicGhostButton",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
       }
     },
     {

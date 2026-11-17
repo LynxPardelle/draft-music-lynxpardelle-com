@@ -12,6 +12,36 @@
       "path": "/404",
       "pageId": "not-found",
       "label": "Página no encontrada"
+    },
+    {
+      "pageId": "formacion",
+      "path": "/formacion",
+      "label": "Formación",
+      "language": "es"
+    },
+    {
+      "pageId": "formacion-cursos",
+      "path": "/formacion/cursos",
+      "label": "Cursos",
+      "language": "es"
+    },
+    {
+      "pageId": "formacion-masterclasses",
+      "path": "/formacion/masterclasses",
+      "label": "Masterclasses",
+      "language": "es"
+    },
+    {
+      "pageId": "formacion-servicios",
+      "path": "/servicios",
+      "label": "Servicios",
+      "language": "es"
+    },
+    {
+      "pageId": "servicios-legacy",
+      "path": "/formacion/servicios",
+      "label": "Servicios",
+      "language": "es"
     }
   ],
   "site": {
@@ -276,7 +306,8 @@
   "notFoundPageId": "not-found",
   "sitemap": {
     "excludePaths": [
-      "/404"
+      "/404",
+      "/formacion/servicios"
     ]
   }
 }

@@ -68,7 +68,12 @@
         {
           "text": "YouTube Music"
         }
-      ]
+      ],
+      "catalog": {
+        "label": "Weiterbildung und Leistungen",
+        "training": "Weiterbildung",
+        "services": "Leistungen"
+      }
     },
     "featuresSection": {
       "title": "Warum dieser Sound bleibt",

@@ -68,7 +68,12 @@
         {
           "text": "YouTube Music"
         }
-      ]
+      ],
+      "catalog": {
+        "label": "Training and services",
+        "training": "Training",
+        "services": "Services"
+      }
     },
     "featuresSection": {
       "title": "Why the sound lands",

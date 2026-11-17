@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "music.lynxpardelle.com",
+  "pageId": "formacion-servicios",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Servicios | Lynx Pardelle",
+    "description": "Asesoría, audio, audiovisual, diseño y web para creadores y proyectos independientes.",
+    "canonical": "https://music.lynxpardelle.com/servicios",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-mezcla.webp"
+    }
+  }
+}

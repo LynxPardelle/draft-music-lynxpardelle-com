@@ -20,3 +20,7 @@ Critical repository-specific safety, deployment, and rollback rules remain local
 Sanitized GitHub copy of the Zoolanding draft at `drafts/music.lynxpardelle.com`.
 
 Local-only notes, findings, logs, environment files, private keys, databases, PDFs, and CV/photo folders are intentionally ignored before publishing.
+
+## Services route compatibility
+
+The canonical services directory is `/servicios`. Existing links to `/formacion/servicios` render the same directory with its own non-indexable page metadata. After editing `formacion-servicios/`, run `node tools/sync-servicios-alias.mjs --write` and commit the regenerated alias payload with the canonical changes. Run the command without `--write` to check synchronization.
