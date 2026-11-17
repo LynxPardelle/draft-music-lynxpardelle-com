@@ -266,7 +266,10 @@
           "label": "DE",
           "value": "de"
         }
-      ]
+      ],
+      "loadingCurtain": {
+        "enabled": false
+      }
     }
   }
 }
