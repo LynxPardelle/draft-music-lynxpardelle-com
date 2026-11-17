@@ -1,0 +1,1596 @@
+{
+  "version": 1,
+  "domain": "music.lynxpardelle.com",
+  "pageId": "servicios-legacy",
+  "components": [
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Servicios",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(38px, 6vw, 82px)",
+          "color": "#f7f3ea",
+          "marginBlock": "9px 16px",
+          "maxWidth": "17ch"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Explorar servicios",
+        "href": "#catalogo",
+        "styles": {
+          "color": "#141217",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#f6c17d",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-label",
+      "type": "text",
+      "config": {
+        "id": "hero-label",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#f6c17d"
+        }
+      }
+    },
+    {
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Asesoría, audio, audiovisual, diseño y web para creadores y proyectos independientes.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "61ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-action"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "7px 18px",
+          "marginTop": "23px"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading",
+          "hero-description",
+          "hero-actions"
+        ],
+        "styles": {
+          "minWidth": "0",
+          "position": "relative",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-mezcla.webp",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "position": "absolute",
+          "inset": "0",
+          "height": "100%",
+          "objectFit": "cover",
+          "objectPosition": "center"
+        }
+      }
+    },
+    {
+      "id": "hero-shade",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [],
+        "styles": {
+          "position": "absolute",
+          "inset": "0",
+          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
+        }
+      }
+    },
+    {
+      "id": "hero-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-copy"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "display": "grid",
+          "alignItems": "center",
+          "minHeight": "clamp(400px, 69svh, 620px)"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "hero-art",
+          "hero-shade",
+          "hero-frame"
+        ],
+        "styles": {
+          "position": "relative",
+          "overflow": "hidden",
+          "borderBlock": "1px solid #665446"
+        }
+      }
+    },
+    {
+      "id": "group-title-0",
+      "type": "text",
+      "config": {
+        "id": "group-title-0",
+        "text": "Asesoría y clases",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-0",
+      "type": "text",
+      "config": {
+        "id": "entry-title-0",
+        "text": "Asesorías creativas y técnicas",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-0",
+      "type": "text",
+      "config": {
+        "id": "entry-description-0",
+        "text": "Trabaja una duda concreta de un proyecto en marcha. La asesoría parte de lo que ya hiciste para revisar decisiones de producción musical, audio, diseño gráfico, animación o web.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-0",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-asesorias.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Asesorías creativas y técnicas"
+      }
+    },
+    {
+      "id": "entry-0",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-0",
+          "entry-description-0",
+          "entry-link-0"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-1",
+      "type": "text",
+      "config": {
+        "id": "entry-title-1",
+        "text": "Clases personalizadas",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-1",
+      "type": "text",
+      "config": {
+        "id": "entry-description-1",
+        "text": "Aprende una técnica que quieras aplicar a tu trabajo, desde editar audio en Ableton Live o FL Studio hasta practicar diseño sonoro, teoría musical, animación o desarrollo web.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-1",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-clases-personalizadas.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Clases personalizadas"
+      }
+    },
+    {
+      "id": "entry-1",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-1",
+          "entry-description-1",
+          "entry-link-1"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-0",
+          "entry-1"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-0",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-0",
+          "group-items-0"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-1",
+      "type": "text",
+      "config": {
+        "id": "group-title-1",
+        "text": "Audio",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-2",
+      "type": "text",
+      "config": {
+        "id": "entry-title-2",
+        "text": "Mezcla musical",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-2",
+      "type": "text",
+      "config": {
+        "id": "entry-description-2",
+        "text": "Dale un lugar a cada elemento de tu canción. La mezcla trabaja con las pistas de voz e instrumentos para que el balance, la profundidad y la dinámica respondan a la intención de la producción.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-2",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-mezcla.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Mezcla musical"
+      }
+    },
+    {
+      "id": "entry-2",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-2",
+          "entry-description-2",
+          "entry-link-2"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-3",
+      "type": "text",
+      "config": {
+        "id": "entry-title-3",
+        "text": "Masterización musical",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-3",
+      "type": "text",
+      "config": {
+        "id": "entry-description-3",
+        "text": "Prepara una mezcla terminada para su publicación con una última escucha centrada en el color, la dinámica y el nivel de la canción.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-3",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-masterizacion.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Masterización musical"
+      }
+    },
+    {
+      "id": "entry-3",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-3",
+          "entry-description-3",
+          "entry-link-3"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-4",
+      "type": "text",
+      "config": {
+        "id": "entry-title-4",
+        "text": "Música original para cine y animación",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-4",
+      "type": "text",
+      "config": {
+        "id": "entry-description-4",
+        "text": "Desarrolla música para el mundo de tu película o serie animada. El estilo y el ritmo se plantean a partir de lo que está ocurriendo en pantalla y de los matices emocionales de cada escena.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-4",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-soundtracks.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Música original para cine y animación"
+      }
+    },
+    {
+      "id": "entry-4",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-4",
+          "entry-description-4",
+          "entry-link-4"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-5",
+      "type": "text",
+      "config": {
+        "id": "entry-title-5",
+        "text": "Jingles y música para publicidad",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-5",
+      "type": "text",
+      "config": {
+        "id": "entry-description-5",
+        "text": "Encuentra un sonido para tu anuncio, desde un tema principal que identifique la campaña hasta una base musical que acompañe su mensaje.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-5",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-jingles.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Jingles y música para publicidad"
+      }
+    },
+    {
+      "id": "entry-5",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-5",
+          "entry-description-5",
+          "entry-link-5"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-2",
+          "entry-3",
+          "entry-4",
+          "entry-5"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-1",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-1",
+          "group-items-1"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-2",
+      "type": "text",
+      "config": {
+        "id": "group-title-2",
+        "text": "Audiovisual y diseño",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-6",
+      "type": "text",
+      "config": {
+        "id": "entry-title-6",
+        "text": "Animación y gráficos en movimiento",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-6",
+      "type": "text",
+      "config": {
+        "id": "entry-description-6",
+        "text": "Pon en movimiento una canción, una idea o un mensaje. La animación puede dar vida a personajes, explicar información visual o aportar gráficos a un video.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-6",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-animaciones.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Animación y gráficos en movimiento"
+      }
+    },
+    {
+      "id": "entry-6",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-6",
+          "entry-description-6",
+          "entry-link-6"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-7",
+      "type": "text",
+      "config": {
+        "id": "entry-title-7",
+        "text": "Videoclips musicales",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-7",
+      "type": "text",
+      "config": {
+        "id": "entry-description-7",
+        "text": "Lleva una canción a pantalla con una idea visual que acompañe su personalidad. El punto de partida puede ser una historia, una propuesta de imágenes o una pieza enfocada en el lanzamiento.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-7",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-videoclips.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Videoclips musicales"
+      }
+    },
+    {
+      "id": "entry-7",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-7",
+          "entry-description-7",
+          "entry-link-7"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-8",
+      "type": "text",
+      "config": {
+        "id": "entry-title-8",
+        "text": "Diseño de logotipos",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-8",
+      "type": "text",
+      "config": {
+        "id": "entry-description-8",
+        "text": "Explora un símbolo o tratamiento tipográfico que represente la personalidad de tu proyecto y pueda reconocerse en los espacios donde lo presentas.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-8",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-logos.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Diseño de logotipos"
+      }
+    },
+    {
+      "id": "entry-8",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-8",
+          "entry-description-8",
+          "entry-link-8"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-9",
+      "type": "text",
+      "config": {
+        "id": "entry-title-9",
+        "text": "Portadas para sencillos y álbumes",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-9",
+      "type": "text",
+      "config": {
+        "id": "entry-description-9",
+        "text": "Dale una imagen reconocible a tu lanzamiento. La portada parte de la música, el concepto y la estética del proyecto para crear una primera impresión coherente.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-9",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-portadas-musicales.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Portadas para sencillos y álbumes"
+      }
+    },
+    {
+      "id": "entry-9",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-9",
+          "entry-description-9",
+          "entry-link-9"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-6",
+          "entry-7",
+          "entry-8",
+          "entry-9"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-2",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-2",
+          "group-items-2"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "group-title-3",
+      "type": "text",
+      "config": {
+        "id": "group-title-3",
+        "text": "Web",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(29px, 4vw, 51px)",
+          "marginBottom": "20px"
+        }
+      }
+    },
+    {
+      "id": "entry-title-10",
+      "type": "text",
+      "config": {
+        "id": "entry-title-10",
+        "text": "Sitios web para músicos y bandas",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-10",
+      "type": "text",
+      "config": {
+        "id": "entry-description-10",
+        "text": "Dale a tu proyecto musical un sitio propio donde escuchar tus lanzamientos, consultar fechas y encontrar cómo contratarte. Diseñamos la navegación según lo que necesitan tus fans, medios y promotores.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-10",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-sitios-web.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Sitios web para músicos y bandas"
+      }
+    },
+    {
+      "id": "entry-10",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-10",
+          "entry-description-10",
+          "entry-link-10"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-11",
+      "type": "text",
+      "config": {
+        "id": "entry-title-11",
+        "text": "Landing pages para lanzamientos musicales",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-11",
+      "type": "text",
+      "config": {
+        "id": "entry-description-11",
+        "text": "Dale a tu sencillo, álbum, show o campaña una página propia. Reúne la portada, la información y un botón para escuchar, comprar boletos o ponerse en contacto contigo.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-11",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-landing-pages.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Landing pages para lanzamientos musicales"
+      }
+    },
+    {
+      "id": "entry-11",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-11",
+          "entry-description-11",
+          "entry-link-11"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-12",
+      "type": "text",
+      "config": {
+        "id": "entry-title-12",
+        "text": "Flyers digitales para músicos y eventos",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-12",
+      "type": "text",
+      "config": {
+        "id": "entry-description-12",
+        "text": "Promociona tu próximo show con un flyer digital que tu público pueda abrir desde un enlace. Reúne el cartel, la fecha, el lugar y un botón para comprar boletos, reservar o pedir informes.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-12",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-flyers-digitales.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Flyers digitales para músicos y eventos"
+      }
+    },
+    {
+      "id": "entry-12",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-12",
+          "entry-description-12",
+          "entry-link-12"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-13",
+      "type": "text",
+      "config": {
+        "id": "entry-title-13",
+        "text": "Kits de prensa para artistas",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-13",
+      "type": "text",
+      "config": {
+        "id": "entry-description-13",
+        "text": "Reúne tu música y los materiales de presentación en un enlace que puedas compartir con medios, foros y personas que programan eventos.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-13",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-presskits-online.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Kits de prensa para artistas"
+      }
+    },
+    {
+      "id": "entry-13",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-13",
+          "entry-description-13",
+          "entry-link-13"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "entry-title-14",
+      "type": "text",
+      "config": {
+        "id": "entry-title-14",
+        "text": "Portafolios de diseño en línea",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "entry-description-14",
+      "type": "text",
+      "config": {
+        "id": "entry-description-14",
+        "text": "Organiza tu trabajo en un portafolio en línea. Presenta tus proyectos por disciplina o tipo de cliente y explica qué aportaste a cada uno.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "56ch",
+          "marginTop": "7px"
+        }
+      }
+    },
+    {
+      "id": "entry-link-14",
+      "type": "link",
+      "config": {
+        "text": "Ver el servicio",
+        "href": "https://servicio-portafolios-online.music.lynxpardelle.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        },
+        "ariaLabel": "Ver Portafolios de diseño en línea"
+      }
+    },
+    {
+      "id": "entry-14",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "entry-title-14",
+          "entry-description-14",
+          "entry-link-14"
+        ],
+        "styles": {
+          "paddingBlock": "15px",
+          "borderTop": "1px solid #d7cec3",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "group-items-3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "entry-10",
+          "entry-11",
+          "entry-12",
+          "entry-13",
+          "entry-14"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "5px"
+        }
+      }
+    },
+    {
+      "id": "group-3",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "group-title-3",
+          "group-items-3"
+        ],
+        "styles": {
+          "marginBlockEnd": "clamp(25px, 4vw, 56px)"
+        }
+      }
+    },
+    {
+      "id": "directory-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "group-0",
+          "group-1",
+          "group-2",
+          "group-3"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)"
+        }
+      }
+    },
+    {
+      "id": "directory",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "directory-frame"
+        ],
+        "styles": {
+          "background": "#f7f3ea",
+          "color": "#141217"
+        },
+        "id": "catalogo",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "nav-formacion",
+      "type": "link",
+      "config": {
+        "text": "Formación",
+        "href": "/formacion",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "text": "Servicios",
+        "href": "/servicios",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "underline"
+        },
+        "ariaCurrent": "page"
+      }
+    },
+    {
+      "id": "brand-logo",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "38px",
+          "height": "38px",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "id": "brand-home",
+      "type": "link",
+      "config": {
+        "text": "LYNX PARDELLE",
+        "href": "/",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "800",
+          "letterSpacing": ".15em",
+          "textDecoration": "none",
+          "gap": "10px"
+        },
+        "components": [
+          "brand-logo"
+        ]
+      }
+    },
+    {
+      "id": "site-nav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "components": [
+          "nav-formacion",
+          "nav-servicios"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px"
+        },
+        "ariaLabel": "Navegación principal"
+      }
+    },
+    {
+      "id": "site-header",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "components": [
+          "brand-home",
+          "site-nav"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "70px",
+          "justifyContent": "space-between",
+          "paddingBlock": "7px"
+        }
+      }
+    },
+    {
+      "id": "footer-brand",
+      "type": "text",
+      "config": {
+        "id": "footer-brand",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "730"
+        }
+      }
+    },
+    {
+      "id": "music-project",
+      "type": "link",
+      "config": {
+        "text": "Proyecto musical ↗",
+        "href": "/",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-credit",
+      "type": "link",
+      "config": {
+        "text": "Sitio creado por ZooBeriah Systems",
+        "href": "https://zooberiahsystems.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-footer",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "components": [
+          "footer-brand",
+          "music-project",
+          "site-credit"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "85px",
+          "justifyContent": "space-between",
+          "borderTop": "1px solid #40383a"
+        }
+      }
+    },
+    {
+      "id": "main-content",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "components": [
+          "hero",
+          "directory"
+        ],
+        "styles": {},
+        "id": "contenido"
+      }
+    },
+    {
+      "id": "site-shell",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "site-header",
+          "main-content",
+          "site-footer"
+        ],
+        "styles": {
+          "background": "#141217",
+          "color": "#f7f3ea",
+          "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
+          "lineHeight": "1.6",
+          "minHeight": "100vh"
+        }
+      }
+    }
+  ]
+}
