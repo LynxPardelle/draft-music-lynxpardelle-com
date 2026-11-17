@@ -22,7 +22,7 @@
       "config": {
         "id": "home",
         "tag": "header",
-        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-position-sticky ank-top-0 ank-zIndex-50 ank-bg-bgColorOPA__0_92 ank-backdropFilter-blurSD18pxED ank-borderBottom-1px__solid__secondaryAccentColor",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-10px ank-bg-bgColor ank-borderBottom-1px__solid__secondaryAccentColor",
         "components": [
           "headerContent"
         ]
@@ -33,12 +33,19 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1320px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-14px ank-flexWrap-wrap",
         "components": [
           "brandStack",
           "headerNav",
           "headerActions"
-        ]
+        ],
+        "styles": {
+          "width": "min(100%, 1360px)",
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "flexWrap": "wrap",
+          "gap": "10px 18px"
+        }
       }
     },
     {
@@ -46,11 +53,13 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-3px ank-minWidth-190px",
         "components": [
-          "brandTitle",
-          "brandCaption"
-        ]
+          "brandTitle"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center"
+        }
       }
     },
     {
@@ -58,19 +67,14 @@
       "type": "text",
       "valueInstructions": "set:config.text,varOr,brand.displayName,LYNX PARDELLE",
       "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "ank-fontSize-1_02rem ank-fontSize-md-1_28rem ank-fontWeight-800 ank-letterSpacing-0_18rem"
-      }
-    },
-    {
-      "id": "brandCaption",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.brandCaption",
-      "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-0_72rem ank-fontWeight-700 ank-letterSpacing-0_12rem ank-opacity-0_62"
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(13px, 2vw, 17px)",
+          "fontWeight": "800",
+          "letterSpacing": ".15em"
+        }
       }
     },
     {
@@ -149,12 +153,17 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-gap-10px ank-alignItems-center ank-flexWrap-wrap ank-justifyContent-end ank-ms-auto",
         "components": [
           "languageMenu",
           "toggleThemeBtn",
           "headerSpotifyLink"
-        ]
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "8px 10px"
+        }
       }
     },
     {
@@ -224,7 +233,15 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkPrimary ank-paddingInline-18px ank-paddingBlock-10px"
+        "classes": "ctaLinkPrimary ank-paddingInline-18px ank-paddingBlock-10px",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "fontSize": ".94rem",
+          "paddingInline": "14px"
+        }
       }
     },
     {
@@ -237,6 +254,7 @@
         "classes": "ank-width-100per ank-display-flex ank-flexDirection-column",
         "components": [
           "heroSection",
+          "homeDirectoryBand",
           "runtimeApiSection",
           "tidalAlbumsSection",
           "benefitsSection",
@@ -254,10 +272,14 @@
       "config": {
         "id": "hero",
         "tag": "section",
-        "classes": "sectionBase ank-paddingTop-18px ank-paddingBottom-24px",
         "components": [
           "heroStage"
-        ]
+        ],
+        "styles": {
+          "background": "#1a1416",
+          "color": "#fff0e9",
+          "width": "100%"
+        }
       }
     },
     {
@@ -265,25 +287,45 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "musicHeroPanel",
         "components": [
+          "heroBackdropTexture",
+          "heroBackdropShade",
           "heroContent"
-        ]
+        ],
+        "styles": {
+          "width": "100%",
+          "position": "relative",
+          "isolation": "isolate",
+          "display": "grid",
+          "alignItems": "center",
+          "minHeight": "clamp(360px, 62svh, 660px)",
+          "overflow": "hidden",
+          "boxSizing": "border-box"
+        }
       }
     },
     {
       "id": "heroBackdropTexture",
       "type": "media",
-      "valueInstructions": "set:config.src,var,heroAssets.heroBackdropUrl",
       "config": {
         "tag": "image",
-        "src": "",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
         "alt": "",
-        "width": 1600,
-        "height": 1100,
+        "width": 1672,
+        "height": 941,
         "loading": "eager",
         "fetchPriority": "high",
-        "classes": "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-100per ank-objectFit-cover ank-opacity-0_4"
+        "decoding": "async",
+        "styles": {
+          "position": "absolute",
+          "inset": "0",
+          "width": "100%",
+          "height": "100%",
+          "display": "block",
+          "objectFit": "cover",
+          "objectPosition": "center 56%",
+          "filter": "grayscale(.48) sepia(.12)"
+        }
       }
     },
     {
@@ -291,11 +333,17 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-position-relative ank-width-100per ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-lg-0_98fr__0_72fr ank-gap-30px ank-gap-lg-48px ank-alignItems-center",
         "components": [
-          "heroTextColumn",
-          "heroMediaColumn"
-        ]
+          "heroTextColumn"
+        ],
+        "styles": {
+          "width": "min(100%, 1360px)",
+          "marginInline": "auto",
+          "position": "relative",
+          "boxSizing": "border-box",
+          "paddingInline": "clamp(22px, 6vw, 88px)",
+          "paddingBlock": "clamp(48px, 8vw, 108px)"
+        }
       }
     },
     {
@@ -303,18 +351,18 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-maxWidth-720px",
         "components": [
           "heroTagline",
           "heroTitle",
           "heroSubtitle",
-          "heroDescription",
-          "heroSupportNote",
-          "heroCtas",
-          "heroCatalogNav",
-          "heroBadgesLabel",
-          "heroBadgesList"
-        ]
+          "heroCtas"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "clamp(12px, 2vw, 21px)",
+          "maxWidth": "720px",
+          "minWidth": "0"
+        }
       }
     },
     {
@@ -324,7 +372,15 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "musicEyebrow ank-m-0"
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(12px, 1.35vw, 15px)",
+          "color": "#f0ad96",
+          "textTransform": "uppercase",
+          "fontWeight": "700",
+          "letterSpacing": ".16em",
+          "lineHeight": "1.45"
+        }
       }
     },
     {
@@ -334,7 +390,15 @@
       "config": {
         "tag": "h1",
         "text": "",
-        "classes": "textGradient ank-m-0 ank-fontSize-2_75rem ank-fontSize-md-5_75rem ank-fontWeight-800 ank-lineHeight-0_92 ank-maxWidth-9ch"
+        "styles": {
+          "color": "#fff0e9",
+          "fontSize": "clamp(57px, 12vw, 136px)",
+          "margin": "0",
+          "fontWeight": "800",
+          "lineHeight": ".90",
+          "letterSpacing": "-.069em",
+          "maxWidth": "9ch"
+        }
       }
     },
     {
@@ -344,27 +408,14 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-m-0 ank-fontSize-1rem ank-fontSize-md-1_38rem ank-fontWeight-800 ank-lineHeight-1_26 ank-maxWidth-38rem ank-opacity-0_96"
-      }
-    },
-    {
-      "id": "heroDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,hero.description",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-display-none ank-display-md-block ank-m-0 ank-fontSize-1rem ank-lineHeight-1_66 ank-maxWidth-40rem ank-opacity-0_82"
-      }
-    },
-    {
-      "id": "heroSupportNote",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,hero.supportNote",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-display-none ank-display-md-block ank-m-0 ank-fontSize-0_9rem ank-fontWeight-800 ank-letterSpacing-0_04rem ank-color-secondaryLinkColor ank-maxWidth-36rem"
+        "styles": {
+          "margin": "0",
+          "maxWidth": "31ch",
+          "fontSize": "clamp(16px, 2.1vw, 23px)",
+          "color": "#f0d7cf",
+          "lineHeight": "1.5",
+          "fontWeight": "550"
+        }
       }
     },
     {
@@ -372,11 +423,16 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-gap-10px ank-flexWrap-wrap",
         "components": [
           "heroPrimaryLink",
           "heroSecondaryLink"
-        ]
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "alignItems": "center",
+          "gap": "10px 12px"
+        }
       }
     },
     {
@@ -391,12 +447,20 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkPrimary",
         "styles": {
           "display": "inline-flex",
           "alignItems": "center",
           "minHeight": "44px",
-          "boxSizing": "border-box"
+          "boxSizing": "border-box",
+          "padding": "10px 19px",
+          "fontWeight": "750",
+          "textDecoration": "none",
+          "borderRadius": "4px",
+          "outlineOffset": "4px",
+          "fontSize": ".96rem",
+          "lineHeight": "1.3",
+          "background": "#f0ad96",
+          "color": "#241417"
         }
       }
     },
@@ -412,12 +476,20 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkSecondary",
         "styles": {
           "display": "inline-flex",
           "alignItems": "center",
           "minHeight": "44px",
-          "boxSizing": "border-box"
+          "boxSizing": "border-box",
+          "padding": "10px 19px",
+          "fontWeight": "750",
+          "textDecoration": "none",
+          "borderRadius": "4px",
+          "outlineOffset": "4px",
+          "fontSize": ".96rem",
+          "lineHeight": "1.3",
+          "color": "#fff0e9",
+          "border": "1px solid #ce9988"
         }
       }
     },
@@ -428,11 +500,20 @@
       "config": {
         "tag": "nav",
         "ariaLabel": "Formación y servicios",
-        "classes": "ank-display-flex ank-gap-10px ank-flexWrap-wrap",
         "components": [
-          "heroTrainingLink",
-          "heroServicesLink"
-        ]
+          "homeTrainingDirectory",
+          "homeServicesDirectory"
+        ],
+        "styles": {
+          "display": "grid",
+          "width": "min(100%, 1360px)",
+          "marginInline": "auto",
+          "boxSizing": "border-box",
+          "padding": "clamp(25px, 5.2vw, 62px) clamp(22px, 6vw, 88px)",
+          "gap": "clamp(23px, 5vw, 64px)",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 240px), 1fr))"
+        },
+        "id": "catalogos"
       }
     },
     {
@@ -442,12 +523,19 @@
       "config": {
         "href": "/formacion",
         "text": "Formación",
-        "classes": "musicGhostButton",
         "styles": {
           "display": "inline-flex",
           "alignItems": "center",
           "minHeight": "44px",
-          "boxSizing": "border-box"
+          "boxSizing": "border-box",
+          "fontSize": "clamp(27px, 3.5vw, 44px)",
+          "fontWeight": "780",
+          "lineHeight": "1.1",
+          "color": "#241c1c",
+          "textDecoration": "underline",
+          "textDecorationThickness": "1px",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
         }
       }
     },
@@ -458,118 +546,20 @@
       "config": {
         "href": "/servicios",
         "text": "Servicios",
-        "classes": "musicGhostButton",
         "styles": {
           "display": "inline-flex",
           "alignItems": "center",
           "minHeight": "44px",
-          "boxSizing": "border-box"
+          "boxSizing": "border-box",
+          "fontSize": "clamp(27px, 3.5vw, 44px)",
+          "fontWeight": "780",
+          "lineHeight": "1.1",
+          "color": "#241c1c",
+          "textDecoration": "underline",
+          "textDecorationThickness": "1px",
+          "textUnderlineOffset": "5px",
+          "outlineOffset": "3px"
         }
-      }
-    },
-    {
-      "id": "heroBadgesLabel",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,hero.badgesLabel",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-display-none ank-display-md-block ank-fontSize-0_8rem ank-fontWeight-800 ank-opacity-0_66"
-      }
-    },
-    {
-      "id": "heroBadgesList",
-      "type": "container",
-      "loopConfig": {
-        "source": "i18n",
-        "path": "hero.badges",
-        "templateId": "heroBadgeTemplate",
-        "idPrefix": "heroBadge",
-        "bindings": [
-          {
-            "to": "config.text",
-            "sources": [
-              "text",
-              "$item"
-            ],
-            "fallback": "Music"
-          }
-        ]
-      },
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-none ank-display-md-flex ank-flexWrap-wrap ank-gap-10px ank-maxWidth-44rem",
-        "components": []
-      }
-    },
-    {
-      "id": "heroBadgeTemplate",
-      "type": "text",
-      "config": {
-        "tag": "span",
-        "text": "",
-        "classes": "musicChip"
-      }
-    },
-    {
-      "id": "heroMediaColumn",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-none ank-display-md-flex ank-flexDirection-column ank-gap-12px ank-justifyContent-center",
-        "components": [
-          "heroMediaMeta",
-          "heroMediaFrame"
-        ]
-      }
-    },
-    {
-      "id": "heroMediaMeta",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,hero.mediaKicker",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_74rem ank-fontWeight-800 ank-letterSpacing-0_18rem ank-opacity-0_62 ank-textAlign-md-right"
-      }
-    },
-    {
-      "id": "heroMediaFrame",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-position-relative ank-width-100per ank-maxWidth-390px ank-ms-auto ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "heroMedia",
-          "heroMediaCaption"
-        ]
-      }
-    },
-    {
-      "id": "heroMedia",
-      "type": "media",
-      "valueInstructions": "set:config.src,var,heroAssets.heroImageUrl;set:config.alt,varOr,heroAssets.heroImageAlt,Lynx Pardelle",
-      "config": {
-        "id": "heroMedia",
-        "tag": "image",
-        "src": "",
-        "alt": "",
-        "width": 590,
-        "height": 630,
-        "loading": "eager",
-        "fetchPriority": "high",
-        "sizes": "(max-width: 768px) 100vw, 460px",
-        "classes": "ank-width-100per ank-display-block ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-boxShadow-0__16px__44px__bgColor__OPA__0_22"
-      }
-    },
-    {
-      "id": "heroMediaCaption",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.heroMediaCaption",
-      "config": {
-        "tag": "small",
-        "text": "",
-        "classes": "ank-fontSize-0_78rem ank-fontWeight-800 ank-letterSpacing-0_06rem ank-opacity-0_66 ank-textAlign-md-right"
       }
     },
     {
@@ -891,7 +881,6 @@
         "components": [
           "runtimeApiTitle",
           "runtimeApiSubtitle",
-          "runtimeApiStatus",
           "runtimeApiList"
         ]
       }
@@ -914,16 +903,6 @@
         "tag": "p",
         "text": "",
         "classes": "sectionSubtitle"
-      }
-    },
-    {
-      "id": "runtimeApiStatus",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,runtimeApiSection.statusLabel",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "musicEyebrow ank-width-fitContent"
       }
     },
     {
@@ -1845,6 +1824,154 @@
         "type": "button",
         "label": "",
         "classes": "musicGhostButton"
+      }
+    },
+    {
+      "id": "heroBackdropShade",
+      "type": "container",
+      "config": {
+        "id": "heroBackdropShade",
+        "tag": "div",
+        "components": [],
+        "styles": {
+          "position": "absolute",
+          "inset": "0",
+          "pointerEvents": "none",
+          "background": "linear-gradient(90deg,#1a1217fa 0%,#1a1217de 31%,#1a12176b 69%,#1a121730 100%), linear-gradient(0deg,#1a1217ad,transparent 70%)"
+        }
+      }
+    },
+    {
+      "id": "homeDirectoryBand",
+      "type": "container",
+      "config": {
+        "id": "homeDirectoryBand",
+        "tag": "div",
+        "components": [
+          "heroCatalogNav"
+        ],
+        "styles": {
+          "background": "#f5eee5",
+          "color": "#241c1c"
+        }
+      }
+    },
+    {
+      "id": "homeTrainingDirectory",
+      "type": "container",
+      "config": {
+        "id": "homeTrainingDirectory",
+        "tag": "div",
+        "components": [
+          "heroTrainingLink",
+          "homeTrainingLinks"
+        ],
+        "styles": {
+          "minWidth": "0",
+          "display": "grid",
+          "gap": "8px",
+          "alignContent": "start",
+          "borderTop": "1px solid #d9cdbf",
+          "paddingBlockStart": "13px"
+        }
+      }
+    },
+    {
+      "id": "homeTrainingLinks",
+      "type": "container",
+      "config": {
+        "id": "homeTrainingLinks",
+        "tag": "div",
+        "components": [
+          "homeCoursesLink",
+          "homeMasterclassesLink"
+        ],
+        "styles": {
+          "display": "flex",
+          "gap": "2px 21px",
+          "flexWrap": "wrap"
+        }
+      }
+    },
+    {
+      "id": "homeCoursesLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.courses",
+      "config": {
+        "id": "homeCoursesLink",
+        "text": "Cursos",
+        "href": "/formacion/cursos",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#792c3c",
+          "fontSize": ".98rem",
+          "fontWeight": "730",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "homeMasterclassesLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.masterclasses",
+      "config": {
+        "id": "homeMasterclassesLink",
+        "text": "Masterclasses",
+        "href": "/formacion/masterclasses",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "color": "#792c3c",
+          "fontSize": ".98rem",
+          "fontWeight": "730",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "homeServicesDirectory",
+      "type": "container",
+      "config": {
+        "id": "homeServicesDirectory",
+        "tag": "div",
+        "components": [
+          "heroServicesLink",
+          "homeServicesCopy"
+        ],
+        "styles": {
+          "minWidth": "0",
+          "display": "grid",
+          "gap": "8px",
+          "alignContent": "start",
+          "borderTop": "1px solid #d9cdbf",
+          "paddingBlockStart": "13px"
+        }
+      }
+    },
+    {
+      "id": "homeServicesCopy",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.servicesCopy",
+      "config": {
+        "id": "homeServicesCopy",
+        "tag": "p",
+        "text": "Audio, audiovisual, diseño y web.",
+        "styles": {
+          "margin": "0",
+          "fontSize": ".97rem",
+          "lineHeight": "1.45",
+          "color": "#584744",
+          "maxWidth": "42ch"
+        }
       }
     }
   ]

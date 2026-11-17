@@ -42,7 +42,7 @@
       "tracks": "Morceaux"
     },
     "hero": {
-      "tagline": "Signal officiel / rock electronique experimental.",
+      "tagline": "Rock électronique expérimental",
       "title": "Lynx Pardelle",
       "subtitle": "Pression, texture et remanence pour ecoutes nocturnes.",
       "description": "Un catalogue tendu et immersif ou bords distordus, retenue melodique et identite visuelle avancent comme un seul systeme.",
@@ -72,7 +72,10 @@
       "catalog": {
         "label": "Formation et services",
         "training": "Formation",
-        "services": "Services"
+        "services": "Services",
+        "courses": "Cours",
+        "masterclasses": "Masterclasses",
+        "servicesCopy": "Audio, audiovisuel, design et web."
       }
     },
     "featuresSection": {
@@ -136,9 +139,8 @@
       "subtitle": "Des points d'accès différents pour des habitudes d'écoute différentes."
     },
     "runtimeApiSection": {
-      "title": "Morceaux en mouvement",
-      "subtitle": "La liste se met a jour depuis le flux configure et garde des donnees locales de secours si la source repond plus lentement.",
-      "statusLabel": "Mis a jour depuis iTunes Search via le proxy API"
+      "title": "Morceaux",
+      "subtitle": "Écoutez les morceaux de Lynx Pardelle et ouvrez-les sur votre plateforme."
     },
     "tidalAlbumsSection": {
       "title": "Albums sur TIDAL",
