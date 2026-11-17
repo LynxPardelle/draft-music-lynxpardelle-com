@@ -1865,6 +1865,7 @@
         "components": [
           "heroTrainingLink",
           "homeTrainingLinks",
+          "homeArtistIdentity",
           "homeTrainingFeatures",
           "homePortfolioMusic"
         ],
@@ -2067,6 +2068,23 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "homeArtistIdentity",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.identity",
+      "config": {
+        "id": "homeArtistIdentity",
+        "tag": "p",
+        "text": "Lynx Pardelle es el proyecto musical de Alec Jonathan Montaño Romero, quien imparte los cursos y las masterclasses de este catálogo.",
+        "styles": {
+          "margin": "0",
+          "fontSize": ".97rem",
+          "lineHeight": "1.5",
+          "color": "#584744",
+          "maxWidth": "48ch"
         }
       }
     },
