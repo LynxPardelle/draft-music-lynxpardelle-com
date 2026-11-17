@@ -188,7 +188,7 @@
       "type": "text",
       "config": {
         "id": "group-title-0",
-        "text": "Formación",
+        "text": "Asesoría y clases",
         "tag": "h2",
         "styles": {
           "margin": "0",
@@ -1372,29 +1372,11 @@
       }
     },
     {
-      "id": "nav-cursos",
+      "id": "nav-formacion",
       "type": "link",
       "config": {
-        "text": "Cursos",
-        "href": "https://music.lynxpardelle.com/formacion/cursos",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "none"
-        }
-      }
-    },
-    {
-      "id": "nav-masterclasses",
-      "type": "link",
-      "config": {
-        "text": "Masterclasses",
-        "href": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "text": "Formación",
+        "href": "/formacion",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -1412,7 +1394,7 @@
       "type": "link",
       "config": {
         "text": "Servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "/servicios",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -1449,7 +1431,7 @@
       "type": "link",
       "config": {
         "text": "LYNX PARDELLE",
-        "href": "https://music.lynxpardelle.com/formacion",
+        "href": "/",
         "styles": {
           "color": "#f6c17d",
           "textUnderlineOffset": "4px",
@@ -1472,8 +1454,7 @@
       "config": {
         "tag": "nav",
         "components": [
-          "nav-cursos",
-          "nav-masterclasses",
+          "nav-formacion",
           "nav-servicios"
         ],
         "styles": {
@@ -1527,7 +1508,7 @@
       "type": "link",
       "config": {
         "text": "Proyecto musical ↗",
-        "href": "https://music.lynxpardelle.com/",
+        "href": "/",
         "styles": {
           "color": "#f6c17d",
           "textUnderlineOffset": "4px",

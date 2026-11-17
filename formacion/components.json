@@ -8,7 +8,7 @@
       "type": "text",
       "config": {
         "id": "page-heading",
-        "text": "Formación y producción creativa",
+        "text": "Formación",
         "tag": "h1",
         "styles": {
           "margin": "0",
@@ -28,7 +28,7 @@
       "id": "hero-action",
       "type": "link",
       "config": {
-        "text": "Explorar la oferta",
+        "text": "Explorar cursos y masterclasses",
         "href": "#catalogo",
         "styles": {
           "color": "#141217",
@@ -67,7 +67,7 @@
       "type": "text",
       "config": {
         "id": "hero-description",
-        "text": "Cursos, masterclasses y servicios de música, audio y producción audiovisual con Alec Jonathan Montaño Romero.",
+        "text": "Cursos y masterclasses de producción musical, diseño sonoro, negocio musical y producción audiovisual con Lynx Pardelle.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -237,7 +237,7 @@
       "type": "link",
       "config": {
         "text": "Ver cursos →",
-        "href": "https://music.lynxpardelle.com/formacion/cursos",
+        "href": "/formacion/cursos",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -318,7 +318,7 @@
       "type": "link",
       "config": {
         "text": "Ver masterclasses →",
-        "href": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "href": "/formacion/masterclasses",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -346,95 +346,13 @@
       }
     },
     {
-      "id": "home-art-servicios",
-      "type": "media",
-      "config": {
-        "tag": "image",
-        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-mezcla.webp",
-        "alt": "Una mano ajusta los faders de una superficie de mezcla.",
-        "loading": "lazy",
-        "decoding": "async",
-        "styles": {
-          "display": "block",
-          "width": "100%",
-          "aspectRatio": "3 / 2",
-          "objectFit": "cover"
-        }
-      }
-    },
-    {
-      "id": "home-title-servicios",
-      "type": "text",
-      "config": {
-        "id": "home-title-servicios",
-        "text": "Servicios",
-        "tag": "h2",
-        "styles": {
-          "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
-          "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
-          "marginBlock": "16px 8px"
-        }
-      }
-    },
-    {
-      "id": "home-description-servicios",
-      "type": "text",
-      "config": {
-        "id": "home-description-servicios",
-        "text": "Dale forma a tu proyecto.",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "marginBottom": "6px"
-        }
-      }
-    },
-    {
-      "id": "home-link-servicios",
-      "type": "link",
-      "config": {
-        "text": "Ver servicios →",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640"
-        }
-      }
-    },
-    {
-      "id": "home-servicios",
-      "type": "container",
-      "config": {
-        "tag": "article",
-        "components": [
-          "home-art-servicios",
-          "home-title-servicios",
-          "home-description-servicios",
-          "home-link-servicios"
-        ],
-        "styles": {
-          "minWidth": "0"
-        }
-      }
-    },
-    {
       "id": "home-grid",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
           "home-cursos",
-          "home-masterclasses",
-          "home-servicios"
+          "home-masterclasses"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -465,29 +383,11 @@
       }
     },
     {
-      "id": "nav-cursos",
+      "id": "nav-formacion",
       "type": "link",
       "config": {
-        "text": "Cursos",
-        "href": "https://music.lynxpardelle.com/formacion/cursos",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640",
-          "fontSize": "14px",
-          "textDecoration": "none"
-        }
-      }
-    },
-    {
-      "id": "nav-masterclasses",
-      "type": "link",
-      "config": {
-        "text": "Masterclasses",
-        "href": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "text": "Formación",
+        "href": "/formacion",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -505,7 +405,7 @@
       "type": "link",
       "config": {
         "text": "Servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "/servicios",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -541,7 +441,7 @@
       "type": "link",
       "config": {
         "text": "LYNX PARDELLE",
-        "href": "https://music.lynxpardelle.com/formacion",
+        "href": "/",
         "styles": {
           "color": "#f6c17d",
           "textUnderlineOffset": "4px",
@@ -564,8 +464,7 @@
       "config": {
         "tag": "nav",
         "components": [
-          "nav-cursos",
-          "nav-masterclasses",
+          "nav-formacion",
           "nav-servicios"
         ],
         "styles": {
@@ -619,7 +518,7 @@
       "type": "link",
       "config": {
         "text": "Proyecto musical ↗",
-        "href": "https://music.lynxpardelle.com/",
+        "href": "/",
         "styles": {
           "color": "#f6c17d",
           "textUnderlineOffset": "4px",

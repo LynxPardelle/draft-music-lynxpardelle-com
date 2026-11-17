@@ -68,7 +68,12 @@
         {
           "text": "YouTube Music"
         }
-      ]
+      ],
+      "catalog": {
+        "label": "Formación y servicios",
+        "training": "Formación",
+        "services": "Servicios"
+      }
     },
     "featuresSection": {
       "title": "Por qué este sonido sí se queda",

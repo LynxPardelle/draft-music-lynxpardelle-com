@@ -68,7 +68,12 @@
         {
           "text": "YouTube Music"
         }
-      ]
+      ],
+      "catalog": {
+        "label": "Formation et services",
+        "training": "Formation",
+        "services": "Services"
+      }
     },
     "featuresSection": {
       "title": "Pourquoi ce son reste",
