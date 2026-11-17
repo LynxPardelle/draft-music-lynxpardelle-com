@@ -107,12 +107,7 @@
     "seo": {
       "siteName": "LYNX PARDELLE",
       "title": "LYNX PARDELLE",
-      "description": {
-        "es": "Escucha el proyecto de rock electrónico experimental de Alec Jonathan Montaño Romero y explora sus cursos y servicios de audio, audiovisual y web.",
-        "en": "Listen to Alec Jonathan Montaño Romero’s experimental electronic rock and explore his courses, audio production, audiovisual and web services.",
-        "fr": "Découvrez le rock électronique expérimental d’Alec Jonathan Montaño Romero, ses cours et ses services de production audio, audiovisuelle et web.",
-        "de": "Höre den experimentellen elektronischen Rock von Alec Jonathan Montaño Romero und entdecke seine Kurse sowie Audio-, Video- und Webangebote."
-      },
+      "description": "Escucha el proyecto de rock electrónico experimental de Alec Jonathan Montaño Romero y explora sus cursos y servicios de audio, audiovisual y web.",
       "canonicalOrigin": "https://music.lynxpardelle.com",
       "defaultImage": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
       "openGraph": {
