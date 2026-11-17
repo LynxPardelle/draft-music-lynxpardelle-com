@@ -33,6 +33,12 @@
     },
     {
       "pageId": "formacion-servicios",
+      "path": "/servicios",
+      "label": "Servicios",
+      "language": "es"
+    },
+    {
+      "pageId": "formacion-servicios",
       "path": "/formacion/servicios",
       "label": "Servicios",
       "language": "es"
@@ -300,7 +306,8 @@
   "notFoundPageId": "not-found",
   "sitemap": {
     "excludePaths": [
-      "/404"
+      "/404",
+      "/formacion/servicios"
     ]
   }
 }

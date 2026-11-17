@@ -311,6 +311,7 @@
           "heroDescription",
           "heroSupportNote",
           "heroCtas",
+          "heroCatalogNav",
           "heroBadgesLabel",
           "heroBadgesList"
         ]
@@ -406,6 +407,40 @@
         "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "ctaLinkSecondary"
+      }
+    },
+    {
+      "id": "heroCatalogNav",
+      "type": "container",
+      "valueInstructions": "set:config.ariaLabel,i18n,hero.catalog.label",
+      "config": {
+        "tag": "nav",
+        "ariaLabel": "Formación y servicios",
+        "classes": "ank-display-flex ank-gap-10px ank-flexWrap-wrap",
+        "components": [
+          "heroTrainingLink",
+          "heroServicesLink"
+        ]
+      }
+    },
+    {
+      "id": "heroTrainingLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.training",
+      "config": {
+        "href": "/formacion",
+        "text": "Formación",
+        "classes": "musicGhostButton ank-minHeight-44px"
+      }
+    },
+    {
+      "id": "heroServicesLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.services",
+      "config": {
+        "href": "/servicios",
+        "text": "Servicios",
+        "classes": "musicGhostButton ank-minHeight-44px"
       }
     },
     {
