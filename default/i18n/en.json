@@ -75,7 +75,12 @@
         "services": "Services",
         "courses": "Courses",
         "masterclasses": "Masterclasses",
-        "servicesCopy": "Audio, audiovisual, design and web services."
+        "servicesCopy": "Audio, audiovisual, design and web services.",
+        "featured": {
+          "electronicMusic": "Electronic music production course",
+          "voiceRecording": "Voice and instrument recording masterclass",
+          "flyers": "Digital flyer design"
+        }
       }
     },
     "featuresSection": {
