@@ -536,7 +536,8 @@
           "textDecorationThickness": "1px",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -559,7 +560,8 @@
           "textDecorationThickness": "1px",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1915,7 +1917,8 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1937,7 +1940,8 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2022,7 +2026,8 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2045,7 +2050,8 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2068,7 +2074,8 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2107,7 +2114,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2129,7 +2137,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2151,7 +2160,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2173,7 +2183,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]

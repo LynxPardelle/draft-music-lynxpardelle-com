@@ -247,7 +247,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Asesorías creativas y técnicas"
+        "ariaLabel": "Ver Asesorías creativas y técnicas",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -312,7 +313,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Clases personalizadas"
+        "ariaLabel": "Ver Clases personalizadas",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -430,7 +432,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Mezcla musical"
+        "ariaLabel": "Ver Mezcla musical",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -495,7 +498,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Masterización musical"
+        "ariaLabel": "Ver Masterización musical",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -560,7 +564,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Música original para cine y animación"
+        "ariaLabel": "Ver Música original para cine y animación",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -625,7 +630,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Jingles y música para publicidad"
+        "ariaLabel": "Ver Jingles y música para publicidad",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -746,7 +752,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Animación y gráficos en movimiento"
+        "ariaLabel": "Ver Animación y gráficos en movimiento",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -811,7 +818,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Videoclips musicales"
+        "ariaLabel": "Ver Videoclips musicales",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -876,7 +884,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Diseño de logotipos"
+        "ariaLabel": "Ver Diseño de logotipos",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -941,7 +950,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Portadas para sencillos y álbumes"
+        "ariaLabel": "Ver Portadas para sencillos y álbumes",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1063,7 +1073,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Sitios web para músicos y bandas"
+        "ariaLabel": "Ver Sitios web para músicos y bandas",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1128,7 +1139,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Landing pages para lanzamientos musicales"
+        "ariaLabel": "Ver Landing pages para lanzamientos musicales",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1193,7 +1205,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Flyers digitales para músicos y eventos"
+        "ariaLabel": "Ver Flyers digitales para músicos y eventos",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1258,7 +1271,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Kits de prensa para artistas"
+        "ariaLabel": "Ver Kits de prensa para artistas",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1323,7 +1337,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Portafolios de diseño en línea"
+        "ariaLabel": "Ver Portafolios de diseño en línea",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1455,7 +1470,8 @@
         },
         "components": [
           "brand-logo"
-        ]
+        ],
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1528,7 +1544,8 @@
           "display": "inline-flex",
           "alignItems": "center",
           "fontSize": "14px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1622,7 +1639,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1643,7 +1661,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1664,7 +1683,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1686,7 +1706,8 @@
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
         },
-        "ariaCurrent": "page"
+        "ariaCurrent": "page",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1814,7 +1835,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1835,7 +1857,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1856,7 +1879,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1877,7 +1901,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]

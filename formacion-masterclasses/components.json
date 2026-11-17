@@ -247,7 +247,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Grabación de voz e instrumentos"
+        "ariaLabel": "Ver Grabación de voz e instrumentos",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -312,7 +313,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Loops en vivo"
+        "ariaLabel": "Ver Loops en vivo",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -377,7 +379,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Procesos de audio I: tiempo, dinámica y filtros"
+        "ariaLabel": "Ver Procesos de audio I: tiempo, dinámica y filtros",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -442,7 +445,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Procesos de audio II: modulación y utilidades"
+        "ariaLabel": "Ver Procesos de audio II: modulación y utilidades",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -562,7 +566,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Instrumentos y efectos MIDI"
+        "ariaLabel": "Ver Instrumentos y efectos MIDI",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -627,7 +632,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Baterías con Impulse"
+        "ariaLabel": "Ver Baterías con Impulse",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -692,7 +698,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Baterías con Drum Rack"
+        "ariaLabel": "Ver Baterías con Drum Rack",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -757,7 +764,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Edición de muestras con Simpler"
+        "ariaLabel": "Ver Edición de muestras con Simpler",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -822,7 +830,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Introducción a Sampler"
+        "ariaLabel": "Ver Introducción a Sampler",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -943,7 +952,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Ritmo y escritura para percusión"
+        "ariaLabel": "Ver Ritmo y escritura para percusión",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1008,7 +1018,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Notas musicales y lectura básica"
+        "ariaLabel": "Ver Notas musicales y lectura básica",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1073,7 +1084,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Intervalos melódicos y armónicos"
+        "ariaLabel": "Ver Intervalos melódicos y armónicos",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1138,7 +1150,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Acordes: tríadas, séptimas y extensiones"
+        "ariaLabel": "Ver Acordes: tríadas, séptimas y extensiones",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1203,7 +1216,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Escalas I: escala mayor y armonización"
+        "ariaLabel": "Ver Escalas I: escala mayor y armonización",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1268,7 +1282,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Escalas II: escalas menores"
+        "ariaLabel": "Ver Escalas II: escalas menores",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1390,7 +1405,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Estructura y arreglo musical"
+        "ariaLabel": "Ver Estructura y arreglo musical",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1455,7 +1471,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Mezcla digital"
+        "ariaLabel": "Ver Mezcla digital",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1520,7 +1537,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Masterización musical"
+        "ariaLabel": "Ver Masterización musical",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1585,7 +1603,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Ruteo avanzado y grupos de audio y MIDI"
+        "ariaLabel": "Ver Ruteo avanzado y grupos de audio y MIDI",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1705,7 +1724,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Síntesis aditiva, sustractiva y FM"
+        "ariaLabel": "Ver Síntesis aditiva, sustractiva y FM",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1770,7 +1790,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Síntesis de tabla de ondas"
+        "ariaLabel": "Ver Síntesis de tabla de ondas",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1835,7 +1856,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Síntesis por modelado físico"
+        "ariaLabel": "Ver Síntesis por modelado físico",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1900,7 +1922,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Síntesis orgánica y granular"
+        "ariaLabel": "Ver Síntesis orgánica y granular",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -1965,7 +1988,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Edición y transformación del sonido"
+        "ariaLabel": "Ver Edición y transformación del sonido",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2086,7 +2110,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Profesionaliza tu proyecto musical"
+        "ariaLabel": "Ver Profesionaliza tu proyecto musical",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2151,7 +2176,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver La industria musical"
+        "ariaLabel": "Ver La industria musical",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2216,7 +2242,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Hazlo tú mismo: gestión para artistas independientes"
+        "ariaLabel": "Ver Hazlo tú mismo: gestión para artistas independientes",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2281,7 +2308,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Redes sociales y difusión para músicos"
+        "ariaLabel": "Ver Redes sociales y difusión para músicos",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2413,7 +2441,8 @@
         },
         "components": [
           "brand-logo"
-        ]
+        ],
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2486,7 +2515,8 @@
           "display": "inline-flex",
           "alignItems": "center",
           "fontSize": "14px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2581,7 +2611,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2602,7 +2633,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2624,7 +2656,8 @@
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
         },
-        "ariaCurrent": "page"
+        "ariaCurrent": "page",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2645,7 +2678,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -2839,7 +2873,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]
