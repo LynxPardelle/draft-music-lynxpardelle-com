@@ -1865,7 +1865,8 @@
         "components": [
           "heroTrainingLink",
           "homeTrainingLinks",
-          "homeTrainingFeatures"
+          "homeTrainingFeatures",
+          "homePortfolioMusic"
         ],
         "styles": {
           "minWidth": "0",
@@ -1947,7 +1948,10 @@
         "components": [
           "heroServicesLink",
           "homeServicesCopy",
-          "homeFeaturedFlyers"
+          "homeFeaturedFlyers",
+          "homePortfolio-reel",
+          "homePortfolio-design",
+          "homePortfolio-web"
         ],
         "styles": {
           "minWidth": "0",
@@ -2063,6 +2067,94 @@
           "textDecoration": "underline",
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "homePortfolioMusic",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.portfolio.audio",
+      "config": {
+        "id": "homePortfolioMusic",
+        "text": "Explorar el portafolio de música y audio",
+        "href": "https://lynxpardelle.com/music",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "homePortfolio-reel",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.portfolio.reel",
+      "config": {
+        "id": "homePortfolio-reel",
+        "text": "Ver trabajos audiovisuales",
+        "href": "https://lynxpardelle.com/reel",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "homePortfolio-design",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.portfolio.design",
+      "config": {
+        "id": "homePortfolio-design",
+        "text": "Ver trabajos de diseño",
+        "href": "https://lynxpardelle.com/book",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
+        }
+      }
+    },
+    {
+      "id": "homePortfolio-web",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.portfolio.web",
+      "config": {
+        "id": "homePortfolio-web",
+        "text": "Ver proyectos web",
+        "href": "https://lynxpardelle.com/webs",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "maxWidth": "100%",
+          "color": "#792c3c",
+          "fontWeight": "700",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px",
+          "lineHeight": "1.4"
         }
       }
     }

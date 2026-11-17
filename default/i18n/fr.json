@@ -80,6 +80,12 @@
           "electronicMusic": "Cours de production de musique électronique",
           "voiceRecording": "Masterclass d’enregistrement de voix et d’instruments",
           "flyers": "Création de flyers numériques"
+        },
+        "portfolio": {
+          "audio": "Découvrir le portfolio de musique et de son",
+          "reel": "Voir les projets audiovisuels",
+          "design": "Voir les projets de design",
+          "web": "Voir les projets web"
         }
       }
     },
@@ -227,6 +233,11 @@
       "subtitle": "Le nécessaire pour commencer à écouter avec contexte."
     },
     "faq": [
+      {
+        "id": "faq-artist",
+        "title": "Qui est Lynx Pardelle ?",
+        "content": "Lynx Pardelle est le projet de rock électronique expérimental d’Alec Jonathan Montaño Romero. Il propose aussi des cours de musique et des services de production, de création audiovisuelle, de design et de développement web."
+      },
       {
         "id": "faq-genre",
         "title": "Quel type de musique est-ce ?",

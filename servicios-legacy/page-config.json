@@ -7,12 +7,140 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Servicios | Lynx Pardelle",
-    "description": "Asesoría, audio, audiovisual, diseño y web para creadores y proyectos independientes.",
+    "title": "Servicios de audio, audiovisual y web para músicos | Lynx Pardelle",
+    "description": "Contrata mezcla, masterización, música original, videoclips, diseño, sitios web, landing pages y press kits para músicos y proyectos independientes.",
     "canonical": "https://music.lynxpardelle.com/servicios",
     "robots": "noindex,follow",
     "openGraph": {
-      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-mezcla.webp"
+      "title": "Servicios de audio, audiovisual y web para músicos | Lynx Pardelle",
+      "description": "Contrata mezcla, masterización, música original, videoclips, diseño, sitios web, landing pages y press kits para músicos y proyectos independientes.",
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-mezcla.webp",
+      "url": "https://music.lynxpardelle.com/servicios",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Servicios de audio, audiovisual y web para músicos | Lynx Pardelle",
+      "description": "Contrata mezcla, masterización, música original, videoclips, diseño, sitios web, landing pages y press kits para músicos y proyectos independientes.",
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-mezcla.webp",
+      "card": "summary_large_image"
     }
+  },
+  "metadata": {
+    "lastModified": "2026-11-16"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://music.lynxpardelle.com/servicios#collection",
+        "url": "https://music.lynxpardelle.com/servicios",
+        "name": "Servicios de audio, audiovisual y web para músicos",
+        "description": "Contrata mezcla, masterización, música original, videoclips, diseño, sitios web, landing pages y press kits para músicos y proyectos independientes.",
+        "inLanguage": "es",
+        "publisher": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "isPartOf": {
+          "@id": "https://music.lynxpardelle.com/#website"
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "numberOfItems": 15,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "url": "https://servicio-asesorias.music.lynxpardelle.com/",
+              "name": "Asesorías creativas y técnicas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "url": "https://servicio-clases-personalizadas.music.lynxpardelle.com/",
+              "name": "Clases personalizadas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "url": "https://servicio-mezcla.music.lynxpardelle.com/",
+              "name": "Mezcla musical"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "url": "https://servicio-masterizacion.music.lynxpardelle.com/",
+              "name": "Masterización musical"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "url": "https://servicio-soundtracks.music.lynxpardelle.com/",
+              "name": "Música original para cine y animación"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "url": "https://servicio-jingles.music.lynxpardelle.com/",
+              "name": "Jingles y música para publicidad"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "url": "https://servicio-animaciones.music.lynxpardelle.com/",
+              "name": "Animación y gráficos en movimiento"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "url": "https://servicio-videoclips.music.lynxpardelle.com/",
+              "name": "Videoclips musicales"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "url": "https://servicio-logos.music.lynxpardelle.com/",
+              "name": "Diseño de logotipos"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "url": "https://servicio-portadas-musicales.music.lynxpardelle.com/",
+              "name": "Portadas para sencillos y álbumes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "url": "https://servicio-sitios-web.music.lynxpardelle.com/",
+              "name": "Sitios web para músicos y bandas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "url": "https://servicio-landing-pages.music.lynxpardelle.com/",
+              "name": "Landing pages para lanzamientos musicales"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "url": "https://servicio-flyers-digitales.music.lynxpardelle.com/",
+              "name": "Flyers digitales para músicos y eventos"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "url": "https://servicio-presskits-online.music.lynxpardelle.com/",
+              "name": "Kits de prensa para artistas"
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "url": "https://servicio-portafolios-online.music.lynxpardelle.com/",
+              "name": "Portafolios de diseño en línea"
+            }
+          ]
+        }
+      }
+    ]
   }
 }
