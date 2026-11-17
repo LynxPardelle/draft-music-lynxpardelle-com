@@ -107,9 +107,9 @@
     "seo": {
       "siteName": "LYNX PARDELLE",
       "title": "LYNX PARDELLE",
-      "description": "Music landing page for LYNX PARDELLE.",
+      "description": "Escucha el proyecto de rock electrónico experimental de Alec Jonathan Montaño Romero y explora sus cursos y servicios de audio, audiovisual y web.",
       "canonicalOrigin": "https://music.lynxpardelle.com",
-      "defaultImage": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
       "openGraph": {
         "type": "website",
         "site_name": "LYNX PARDELLE"
@@ -308,6 +308,11 @@
     "excludePaths": [
       "/404",
       "/formacion/servicios"
+    ],
+    "urls": [
+      "https://music.lynxpardelle.com/?lang=en",
+      "https://music.lynxpardelle.com/?lang=fr",
+      "https://music.lynxpardelle.com/?lang=de"
     ]
   }
 }

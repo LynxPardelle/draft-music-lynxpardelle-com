@@ -80,7 +80,14 @@
           "electronicMusic": "Kurs für elektronische Musikproduktion",
           "voiceRecording": "Masterclass zur Aufnahme von Gesang und Instrumenten",
           "flyers": "Design digitaler Flyer"
-        }
+        },
+        "portfolio": {
+          "audio": "Musik- und Audioportfolio ansehen",
+          "reel": "Videoprojekte ansehen",
+          "design": "Designprojekte ansehen",
+          "web": "Webprojekte ansehen"
+        },
+        "identity": "Lynx Pardelle ist das Musikprojekt von Alec Jonathan Montaño Romero. Er unterrichtet die Kurse und Masterclasses in diesem Katalog."
       }
     },
     "featuresSection": {
