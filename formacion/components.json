@@ -245,7 +245,8 @@
           "display": "inline-flex",
           "alignItems": "center",
           "fontWeight": "640"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -326,7 +327,8 @@
           "display": "inline-flex",
           "alignItems": "center",
           "fontWeight": "640"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -419,7 +421,8 @@
         },
         "components": [
           "brand-logo"
-        ]
+        ],
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -492,7 +495,8 @@
           "display": "inline-flex",
           "alignItems": "center",
           "fontSize": "14px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -588,7 +592,8 @@
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
         },
-        "ariaCurrent": "page"
+        "ariaCurrent": "page",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -609,7 +614,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -630,7 +636,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -651,7 +658,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -695,7 +703,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -716,7 +725,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]

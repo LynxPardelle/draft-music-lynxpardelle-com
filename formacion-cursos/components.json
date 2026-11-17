@@ -247,7 +247,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Creación de música electrónica y diseño sonoro"
+        "ariaLabel": "Ver Creación de música electrónica y diseño sonoro",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -312,7 +313,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Diseño sonoro digital"
+        "ariaLabel": "Ver Diseño sonoro digital",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -377,7 +379,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Music Business para artistas independientes"
+        "ariaLabel": "Ver Music Business para artistas independientes",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -442,7 +445,8 @@
           "textDecoration": "underline",
           "outlineOffset": "3px"
         },
-        "ariaLabel": "Ver Producción audiovisual, edición y animación"
+        "ariaLabel": "Ver Producción audiovisual, edición y animación",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -565,7 +569,8 @@
         },
         "components": [
           "brand-logo"
-        ]
+        ],
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -638,7 +643,8 @@
           "display": "inline-flex",
           "alignItems": "center",
           "fontSize": "14px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -733,7 +739,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -755,7 +762,8 @@
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
         },
-        "ariaCurrent": "page"
+        "ariaCurrent": "page",
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -776,7 +784,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -797,7 +806,8 @@
           "textDecoration": "none",
           "textUnderlineOffset": "5px",
           "outlineOffset": "3px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -841,7 +851,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -862,7 +873,8 @@
           "textUnderlineOffset": "4px",
           "outlineOffset": "3px",
           "lineHeight": "1.4"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]
