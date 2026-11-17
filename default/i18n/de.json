@@ -86,7 +86,8 @@
           "reel": "Videoprojekte ansehen",
           "design": "Designprojekte ansehen",
           "web": "Webprojekte ansehen"
-        }
+        },
+        "identity": "Lynx Pardelle ist das Musikprojekt von Alec Jonathan Montaño Romero. Er unterrichtet die Kurse und Masterclasses in diesem Katalog."
       }
     },
     "featuresSection": {
@@ -233,11 +234,6 @@
       "subtitle": "Alles Nötige, um mit Kontext einzusteigen."
     },
     "faq": [
-      {
-        "id": "faq-artist",
-        "title": "Wer ist Lynx Pardelle?",
-        "content": "Lynx Pardelle ist das experimentelle elektronische Rockprojekt von Alec Jonathan Montaño Romero. Er bietet auch Musikkurse sowie Leistungen in Produktion, Video, Design und Webentwicklung an."
-      },
       {
         "id": "faq-genre",
         "title": "Was für Musik ist das?",
