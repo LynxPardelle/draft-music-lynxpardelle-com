@@ -1864,7 +1864,8 @@
         "tag": "div",
         "components": [
           "heroTrainingLink",
-          "homeTrainingLinks"
+          "homeTrainingLinks",
+          "homeTrainingFeatures"
         ],
         "styles": {
           "minWidth": "0",
@@ -1945,7 +1946,8 @@
         "tag": "div",
         "components": [
           "heroServicesLink",
-          "homeServicesCopy"
+          "homeServicesCopy",
+          "homeFeaturedFlyers"
         ],
         "styles": {
           "minWidth": "0",
@@ -1970,7 +1972,97 @@
           "fontSize": ".97rem",
           "lineHeight": "1.45",
           "color": "#584744",
-          "maxWidth": "42ch"
+          "maxWidth": "42ch",
+          "display": "flex",
+          "alignItems": "center",
+          "minHeight": "44px"
+        }
+      }
+    },
+    {
+      "id": "homeTrainingFeatures",
+      "type": "container",
+      "config": {
+        "id": "homeTrainingFeatures",
+        "tag": "div",
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "alignItems": "center",
+          "gap": "0 20px"
+        },
+        "components": [
+          "homeFeaturedElectronicMusic",
+          "homeFeaturedVoiceRecording"
+        ]
+      }
+    },
+    {
+      "id": "homeFeaturedElectronicMusic",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.featured.electronicMusic",
+      "config": {
+        "id": "homeFeaturedElectronicMusic",
+        "href": "https://curso-musica-electronica.music.lynxpardelle.com/",
+        "text": "Curso de música electrónica",
+        "styles": {
+          "color": "#64483f",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "fontWeight": "620",
+          "fontSize": ".93rem",
+          "lineHeight": "1.4",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "homeFeaturedVoiceRecording",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.featured.voiceRecording",
+      "config": {
+        "id": "homeFeaturedVoiceRecording",
+        "href": "https://masterclass-grabacion-de-voz-e-instrumentos.music.lynxpardelle.com/",
+        "text": "Masterclass de grabación de voz e instrumentos",
+        "styles": {
+          "color": "#64483f",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "fontWeight": "620",
+          "fontSize": ".93rem",
+          "lineHeight": "1.4",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px"
+        }
+      }
+    },
+    {
+      "id": "homeFeaturedFlyers",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,hero.catalog.featured.flyers",
+      "config": {
+        "id": "homeFeaturedFlyers",
+        "href": "https://servicio-flyers-digitales.music.lynxpardelle.com/",
+        "text": "Diseño de flyers digitales",
+        "styles": {
+          "color": "#64483f",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box",
+          "fontWeight": "620",
+          "fontSize": ".93rem",
+          "lineHeight": "1.4",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "4px",
+          "outlineOffset": "3px"
         }
       }
     }

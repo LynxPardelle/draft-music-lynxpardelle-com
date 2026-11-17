@@ -75,7 +75,12 @@
         "services": "Services",
         "courses": "Cours",
         "masterclasses": "Masterclasses",
-        "servicesCopy": "Audio, audiovisuel, design et web."
+        "servicesCopy": "Audio, audiovisuel, design et web.",
+        "featured": {
+          "electronicMusic": "Cours de production de musique électronique",
+          "voiceRecording": "Masterclass d’enregistrement de voix et d’instruments",
+          "flyers": "Création de flyers numériques"
+        }
       }
     },
     "featuresSection": {
