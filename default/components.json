@@ -391,7 +391,13 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkPrimary"
+        "classes": "ctaLinkPrimary",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
       }
     },
     {
@@ -406,7 +412,13 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "ctaLinkSecondary"
+        "classes": "ctaLinkSecondary",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
       }
     },
     {
@@ -430,7 +442,13 @@
       "config": {
         "href": "/formacion",
         "text": "Formación",
-        "classes": "musicGhostButton ank-minHeight-44px"
+        "classes": "musicGhostButton",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
       }
     },
     {
@@ -440,7 +458,13 @@
       "config": {
         "href": "/servicios",
         "text": "Servicios",
-        "classes": "musicGhostButton ank-minHeight-44px"
+        "classes": "musicGhostButton",
+        "styles": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "minHeight": "44px",
+          "boxSizing": "border-box"
+        }
       }
     },
     {
